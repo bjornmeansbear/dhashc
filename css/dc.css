@@ -1,3 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Mono|Oswald:400,300,700); /*@font-face includes */
+
+/* @font-face usage */
+/* font stacks (help from here: http://css-tricks.com/snippets/css/font-stacks/) */
+/* monospaced:        font-family: 'PT Mono', Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; */
+/* headlines, etc.:   font-family: 'Oswald', Calibri, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+sans-serif; */
+
+/* type declarations */
+body {
+  font-family: 'PT Mono', Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oswald', Calibri, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+sans-serif;
+}
+/* end type declarations */
+
+
 .text-centered {
   text-align: center;
 }
