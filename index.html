@@ -46,35 +46,67 @@
 
     <section class="container main">
       <div class="row">
-        <article class="jumbotron span8 offset2 text-centered">
-          <figure>[Big Graphic Here]</figure>
-          <h1>A New Language of Service Design</h1>
-          <p class="lead">Design#Code is a new approach for design and innovation in services. It combines the tradition of industrial design with the tradecraft of strategy to develop breakthrough solutions. These solutions deliver superior outcomes and experiences, minus the compromises that corrode customer value and erode margins.</p>
-        </article>
-      </div>
-    
-      <hr class="container add-top add-bottom" />
-
-      <div class="row">
-      
-        <article class="span4">
-          <figure>[Graphic TK]</figure>
-          <h2 class="text-success">Good Design Fast&trade;</h2>
-          <p>Something about the process of using the canvases and how that makes it easy to capture all points of view quickly &mdash; and then process that into actual actionable data. This results in the Service DEsign Package. A service design package contains the information and instructions for both the planning and the implementation of the design. </p>
-        </article>
+        <div id="slideshow" class="cycle-slideshow ss span6 offset3"
+          data-cycle-fx="fadeOut"
+          data-cycle-timeout="0"
+          data-cycle-prev="#prev"
+          data-cycle-next="#next"
+          data-cycle-slides="> div.slide"
+          >
+          
+          <div class="slide">
+            <div class="cycle-slideshow"
+              data-cycle-fx="fade"
+              data-cycle-speed="100"
+              data-cycle-slides="> div.internal"
+              >
+              <div class="internal">
+                <img src="img/ss/explain1.jpg"/>
+                <p>Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis.</p>
+              </div>
+              <div class="internal">
+                <img src="img/ss/explain2.jpg"/>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</p>
+              </div>
+              <div class="internal">
+                <img src="img/ss/explain3.jpg"/>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              </div>
+              <div class="internal">
+                <img src="img/ss/explain4.jpg"/>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum.</p>
+              </div>
+              <div class="internal">
+                <img src="img/ss/explain5.jpg"/>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+              <div class="internal">
+                <img src="img/ss/explain6.jpg"/>
+                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="slide">
+            <img src="img/ss/explain7.jpg"/>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          <div class="slide">
+            <img src="img/ss/explain8.jpg"/>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui.</p>
+          </div>
+          <div class="slide">
+            <img src="img/ss/explain8.jpg"/>
+            <p>Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue.</p>
+          </div>
         
-        <article class="span4">
-          <figure>[Cube Rendering]</figure>
-          <h2 class="text-warning">Think Inside the Box&trade;</h2>
-          <p>Our methodology is based upon the logic of a cube. Design#Code provides a universal definition of services based on eight design perspectives (the corners of the cube) and the resulting twelve design arguments (the edges of the cube).</p>
-        </article>
+        </div>
 
-        <article class="span4">
-          <figure>[OPEN Logo]</figure>
-          <h2 class="text-info">What is a Service?</h2>
-          <p>Design#Code defines a service as: A Guaranteed set of outcomes and experiences fulfilled by the rendering of a customer asset (or the renting of a resource) at a particular place and time. Using this definition, the value of this service can be easily quantified with a simple business logic: <strong class="text-info">Outcomes-Price/Experience=Net Value.</strong></p>
-        </article>
-
+        <div class="span12">
+          <a href=# id="prev" class="">&laquo;</a> 
+          <a href=# id="next" class="pull-right">&raquo;</a>
+        </div>
+  
       </div>
     </section>
     <!-- end the intro text stuff -->
@@ -96,19 +128,10 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/jquery.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-transition.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-alert.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-modal.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-dropdown.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-scrollspy.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-tab.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-tooltip.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-popover.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-button.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-collapse.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+    <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap.js"></script>
+
     <!-- custom OOKB styles added on top -->
     <script src="js/dc.js"></script>
 
