@@ -39,6 +39,8 @@ body, .muted { color: rgba(224,224,224,1); }
   top: -150px;
 }
 
+#slideshow p { color:rgba(77,77,77,1)}
+
 /* slideshow images (for most of the demos, these are the actual "slides") */
 .cycle-slideshow img { 
     /* 
