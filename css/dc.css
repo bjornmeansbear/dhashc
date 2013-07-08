@@ -42,7 +42,6 @@ body, .muted { color: rgba(224,224,224,1); }
 }
 
 #slideshow div.slide { display: none }
-#slideshow div.first { display: block }
 
 #slideshow p { color:rgba(77,77,77,1)}
 
