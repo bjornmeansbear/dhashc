@@ -1,18 +1,13 @@
 /* type declarations */
 body {
   font-family: "Helvetica Neue", Helvetica, Calibri, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
-  background: red;
 }
 /* end type declarations */
 
 /* ===================== */
 /* SLIDESHOW AND RELATED */
 /* ===================== */
-/* ===================== */
-/* ===================== */
-
 .columnss { position: relative; }
-
 #slideshow { position: relative; }
 
 /* slideshow images (for most of the demos, these are the actual "slides") */
