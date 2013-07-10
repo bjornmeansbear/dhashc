@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
   $(".slide").hide();
   $(".fadein.animate").hide();
@@ -12,3 +13,4 @@ $(document).ready(function() {
     });
   });
 });
+*/
