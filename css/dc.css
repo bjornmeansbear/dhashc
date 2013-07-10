@@ -47,6 +47,7 @@ body {
 .bluebg    { background: rgba(179,217,254,1); }
 .greenbg   { background: rgba(166,218,144,1); }
 .yellowbg  { background: rgba(239,239,191,1); }
+.graybg    { background: rgba(224,224,224,1); }
 
 .columnss .lead {
   height: 300px;
