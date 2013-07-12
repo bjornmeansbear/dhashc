@@ -43,14 +43,41 @@ body {
 
 .slidenav, #prev, #next { position:relative; z-index: 499 !important; }
 
-.purplebg  { background: rgba(228,204,230,1); }
-.bluebg    { background: rgba(179,217,254,1); }
-.greenbg   { background: rgba(166,218,144,1); }
-.yellowbg  { background: rgba(239,239,191,1); }
-.graybg    { background: rgba(224,224,224,1); }
+.postit {
+  background: transparent url(../img/postitcorner.png) right bottom no-repeat;
+  padding: 20px;
+  margin: -9px -9px 10px -9px;
+}
+
+.purplebg  { background-color: rgba(228,204,230,1); }
+.bluebg    { background-color: rgba(179,217,254,1); }
+.greenbg   { background-color: rgba(166,218,144,1); }
+.yellowbg  { background-color: rgba(239,239,191,1); }
+.graybg    { background-color: rgba(224,224,224,1); }
 
 .columnss .lead {
-  height: 300px;
+  height: 260px;
 }
 .toprow    { min-height: 30px; margin-bottom: 20px;}
 /* .bottomrow { min-height: 120px; } */
+
+.toprow.sizeadjust {
+  margin-left: -100px;
+  width: 1140px;
+}
+
+.toprow.graybg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  width: 980px;
+}
+
+img.canvas { 
+  height: 300px;
+  width: auto;
+}
+
+img.unfold {
+  margin: 0;
+}
