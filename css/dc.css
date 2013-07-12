@@ -52,5 +52,5 @@ body {
 .columnss .lead {
   height: 300px;
 }
-.toprow    { min-height: 370px; }
+.toprow    { min-height: 30px; margin-bottom: 20px;}
 /* .bottomrow { min-height: 120px; } */
