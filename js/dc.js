@@ -14,3 +14,16 @@ $(document).ready(function() {
   });
 });
 */
+
+// cycle2 stopping...
+// http://stackoverflow.com/questions/14277438/jquery-stop-the-cycle2-plugin-slider
+
+/*
+$('.cycle-slideshow').on('cycle-after', function (e, opts, API) {
+  if (slideNum === slideCount) {
+    $('.cycle-slideshow').cycle('pause');
+    $('#next').hide();
+    }
+  else {}
+});
+*/
