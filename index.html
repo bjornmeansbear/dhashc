@@ -34,9 +34,9 @@
     <header class="container">
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#intro">intro</a></li>
-          <li><a href="#logic">logic</a></li>
-          <li><a href="#stayinformed">stay informed</a></li>
+          <li class="active"><a class="scroll" href="#intro">intro</a></li>
+          <li><a class="scroll" href="#logic">logic</a></li>
+          <li><a class="scroll" href="#stayinformed">stay informed</a></li>
         </ul>
         <h1 class="muted">design<span>#</span>code</h1>
       </div>
@@ -46,278 +46,290 @@
     <!-- / Header!
     ================================================== -->
 
-    <!-- Main Page Contents!
+    <!-- Intro!
     ================================================== -->
-    <section class="container main">
-      <div class="row">
-
-        <div id="slideshow">
-          <!-- main slideshow -->
-          <div class="cycle-slideshow ss"
-            data-cycle-fx="fadeOut"
-            data-cycle-timeout="0"
-            data-cycle-prev="#prev"
-            data-cycle-next="#next"
-            data-cycle-slides="> div.slide"
-            data-cycle-auto-height="6"
-            >
-            
-            <!-- SECTION1 --><!-- OPEN graphic stuff -->
-            <!-- This is 3 columnar nested slideshows... complicated... -->
-            <div class="slide span12 first" data-cycle-hash="one">
-              <div class="row">
-                
-                <!-column 1 -->
-                <div class="span4 columnss">
-                  <div class="cycle-slideshow"
-                    data-cycle-fx="fade"
-                    data-cycle-timeout="0"
-                    data-cycle-next="> div.slide"
-                    data-cycle-slides="> div.slide"
-                    data-cycle-auto-height="3"
-                    >
-                    <!-- end SS declarations -->
-                    <div class="slide">
-                      <img src="img/openasic.jpg"/>
-                      <p>This equation governs the value an entire class of goods;</p>
-                    </div>
-                    <div class="slide">
-                      <p class="purplebg lead postit">The distinction between goods and services is a deeply-ingrained fallacy.</p>
-                      <p>Beyond the obvious and superficial, when customers pay for a service, aren&rsquo;t they paying for &ldquo;goods?&rdquo; It&rsquo;s time to right a wrong.</p>
-                    </div>
-                    <div class="slide">
-                      <p class="bluebg lead postit">Services deliver particular outcomes and experiences when and where needed.</p>
-                      <p>Think of the many ways to pay for something or getting somewhere. <br/>Outcomes are the “goods” and experience is the “packaging”. <br/>Post-industrial goods, or PIGS.</p>
-                    </div>
-                    <div class="slide">
-                      <p class="greenbg lead postit">Services are guaranteed sets of outcomes & experiences; delivered by the rendering of a customer asset, or the renting of a resource; within a particular space, time or platform.</p>
-                      <p>Outcomes – <br/>Price/Experience = <br/>Net Value <br/><br/>O-P/E=N <br/><br/>P/E = Total Cost of Utilization, or TCU</p>
-                    </div>
-                    <!-- pager! -->
-                    <div class="cycle-pager"></div>
-                  </div>
-                </div>
-                <!-- /END COLUMN 1 -->
-                
-                <!-column 2 -->
-                <div class="span4 columnss">
-                  <div class="cycle-slideshow"
-                    data-cycle-fx="fade"
-                    data-cycle-timeout="0"
-                    data-cycle-next="> div.slide"
-                    data-cycle-slides="> div.slide"
-                    data-cycle-auto-height="3"
-                    >
-                    <div class="slide">
-                      <img src="img/openasic.jpg"/>
-                      <p class="">It determines success in delivering complex value propositions;</p>
-                    </div>
-                    <div class="slide">
-                      <p class="purplebg lead postit">Why do some services flourish and others, forgive the pun, flounder?</p>
-                      <p class="">What gives some category leaders immunity from challengers? <br/>What gives some challengers the impunity to take on establishments?</p>
-                    </div>
-                    <div class="slide">
-                      <p class="bluebg lead postit">Their services are hardier and more resistant to industry factors; costs & risks every player is exposed to.</p>
-                      <p class="">Superior design provides an unfair advantage they fully exploit. Think of design as genetic code.</p>
-                    </div>
-                    <div class="slide">
-                      <p class="greenbg lead postit">They package and deliver outcomes better than others; making sure that the quality of experience is not just a matter of users feeling good.</p>
-                      <p class="">Outcomes – <br/>Price/Experience = <br/>Net Value <br/><br/>O-P/E=N <br/><br/>P/E = Total Cost of Utilization, or TCU</p>
-                    </div>
-                    <!-- pager! -->
-                    <div class="cycle-pager"></div>
-                  </div>
-                </div>
-                <!-- /END COLUMN 2 -->
-                
-                <!-column 3 -->
-                <div class="span4 columnss">
-                  <div class="cycle-slideshow"
-                    data-cycle-fx="fade"
-                    data-cycle-timeout="0"
-                    data-cycle-next="> div.slide"
-                    data-cycle-slides="> div.slide"
-                    data-cycle-auto-height="3"
-                    >
-                    <div class="slide">
-                      <img src="img/openasic.jpg"/>
-                      <p>It shapes business strategy and government policy;</p>
-                    </div>
-                    <div class="slide">
-                      <p class="purplebg lead postit">The business model is pitch perfect and the strategy is sound. <br/>Government policy is clear about about what’s best in the public interest.</p>
-                      <p>How do you make sure policy and strategy won’t fall flat in implementation and operation?</p>
-                    </div>
-                    <div class="slide">
-                      <p class="bluebg lead postit">Every layer and unit in the enterprise should correctly read, interpret and execute policy and strategy.</p>
-                      <p>Design is an expression of policy and strategy in the form of code; we know good code makes all the difference.</p>
-                    </div>
-                    <div class="slide">
-                      <p class="greenbg lead postit">Good design reduces the risk the expected value fails to materialize. <br/>Great design creates unexpected value with superior outcomes and experiences at a lower cost.</p>
-                      <p>Outcomes – <br/>Price/Experience = <br/>Net Value <br/><br/>O-P/E=N <br/><br/>P/E = Total Cost of Utilization, or TCU</p>
-                    </div>
-                    <!-- pager! -->
-                    <div class="cycle-pager"></div>
-                  </div>
-                </div>
-                <!-- /END COLUMN 3 -->
+    <article id="intro" class="subsection">
+      <section class="container">
+        <div class="row">
+          <!-column 1 -->
+          <div class="span4 columnss">
+            <div class="cycle-slideshow"
+              data-cycle-fx="fade"
+              data-cycle-timeout="0"
+              data-cycle-next="> div.slide"
+              data-cycle-slides="> div.slide"
+              data-cycle-auto-height="3"
+              data-cycle-allow-wrap="false"
+              >
+              <!-- end SS declarations -->
+              <div class="slide">
+                <img src="img/openasic.jpg"/>
+                <p>This equation governs the value an entire class of goods;</p>
               </div>
+              <div class="slide">
+                <p class="purplebg lead postit">The distinction between goods and services is a deeply-ingrained fallacy.</p>
+                <p>Beyond the obvious and superficial, when customers pay for a service, aren&rsquo;t they paying for &ldquo;goods?&rdquo; It&rsquo;s time to right a wrong.</p>
+              </div>
+              <div class="slide">
+                <p class="bluebg lead postit">Services deliver particular outcomes and experiences when and where needed.</p>
+                <p>Think of the many ways to pay for something or getting somewhere. <br/>Outcomes are the “goods” and experience is the “packaging”. <br/>Post-industrial goods, or PIGS.</p>
+              </div>
+              <div class="slide">
+                <p class="greenbg lead postit">Services are guaranteed sets of outcomes & experiences; delivered by the rendering of a customer asset, or the renting of a resource; within a particular space, time or platform.</p>
+                <p>Outcomes – <br/>Price/Experience = <br/>Net Value <br/><br/>O-P/E=N <br/><br/>P/E = Total Cost of Utilization, or TCU</p>
+              </div>
+              <!-- pager! -->
+              <div class="cycle-pager"></div>
             </div>
-            <!-- END OPEN graphic stuff -->
-            <!-- END SECTION 1 -->
-
-            <!-- SECTION 2 -->
-            <!-- EINSTEIN QUOTE! -->
-            <div class="slide span12" data-cycle-hash="two">
-              <div class="row toprow">
-                <h2 class="span8 offset2 bigquote"><span>&ldquo;</span>If at first, the idea is not absurd, then there is no hope for it.<span>&rdquo;</span></h2>
-                <p class="span8 offset2 byline">&mdash; Albert Einstein</p>
-              </div>
-            </div>
-            <!-- END EINSTEIN QUOTE! -->
-            <!-- END SECTION 2 -->
-
-            <!-- SECTION 3 -->
-            <!-- Logic basics! -->
-            <div class="slide span12" data-cycle-hash="three">
-              <div class="row toprow">
-                <img class="span4" src="img/1postits-yellow.png"/>
-                <img class="span4" src="img/2justicons.png"/>
-                <img class="span4" src="img/3postits-colored.png"/>
-              </div>
-              <div class="row bottomrow">
-                <p class="span4"><strong>Everybody can code</strong> <br/>Punched cards and paper tape were once used to write computer code. Of course, not everybody could program a computer. <br/><br/>Imagine a new kind of code using Post-It Notes®, making programmers out of Army officers and physicians; field agents, supervisors and technicians; postal workers and flight attendants; the policymaker and the legislator.</p>
-                <p class="span4"><strong>Ideas, observations, and insight</strong> <br/>They may not be designers but they know a lot about getting a particular job done, better, faster and cheaper. <br/><br/>They have ideas, observations and insight, in their heads and across various files and formats, they routinely put these into messages and meeting notes; sketches and diagrams; maps and plans; spreadsheets and charts. They tag photos and videos.</p>
-                <p class="span4"><strong>Embedded logic</strong> <br/>In there are design statements; except that nobody is really sure or aware. Organizations are inherently noisy. <br/><br/>What if an embedded logic could filter the noise and passively convert these statements and expressions into a rich and complete design? As new ideas, observations and insights flow, the design updates itself; or at least begs for attention!</p>
-              </div>
-            </div>
-            <!-- END logic basics -->
-            <!-- END SECTION 3 -->
-
-            <!-- SECTION 4 -->
-            <!-- ARguments and perspectives -->
-            <div class="slide span12" data-cycle-hash="four">
-              <div class="row toprow">
-                <img class="span4" src="img/4postitsandcode.png"/>
-                <img class="span4" src="img/5justcode.png"/>
-                <img class="span4" src="img/6codeandicons.png"/>
-              </div>
-              <div class="row bottomrow">
-                <p class="span4"><strong>32 Design Functions</strong> <br/>Describe every aspect of a service in terms of structure and behaviour; they define the service genome.</p>
-                <p class="span4"><strong>24 Design Arguments</strong> <br/>For expressing ideas, observations & insight; the vocabulary of the Design Functions; as simple as HTML tags</p>
-                <p class="span4"><strong>8 Design Perspectives</strong> <br/>Without them, no value proposition are not complete; customer and service provider perspectives; the hidden cube</p>
-              </div>
-            </div>
-            <!-- END Arguments and perspectives -->
-            <!-- END SECTION 4 -->
-
-            <!-- SECTION 5 -->
-            <!-- Canvases / Good Design Fast -->
-            <div class="slide span12" data-cycle-hash="five">
-              <div class="row toprow sizeadjust">
-                <img class="span4 canvas unfold" src="img/unfoldicon.png"/>
-                <img class="span4" src="img/6codeandicons.png"/>
-                <img class="span4 canvas fold" src="img/foldicon.png"/>
-              </div>
-              <div class="row bottomrow">
-                <h3 class="span12">Good design, fast&trade;</h3>
-                <p class="span4">design#code combines the tradition of industrial design with the tradecraft of strategy, to generate superior designs in fast cycles. A pair of design canvases embed a service design logic, based on economics, industrial engineering and organization science.</p>
-                <p class="span4">Like spreadsheets for design, when complete, the canvases passively generate the design of a service product, in the form of an instruction set or pseudo code, that teams can implement. Encoded in design are the provider’s business model and strategy.</p>
-                <p class="span4">Each canvas has a 4x4 grid of interlocked panels that represent the 32 Design Functions that process design input (canvas content) into meaningful information on one or more aspects of a service design. Each panel also acts as a special folder for maintaining and updating the design</p>
-              </div>
-            </div>
-            <!-- END Canvases / Good Design Fast -->
-            <!-- END SECTION 5 -->
-
-            <!-- SECTION 6 -->
-            <!-- Canvases / Closeup / Examine the logic threads -->
-            <div class="slide span12" data-cycle-hash="six">
-              <div class="row toprow graybg">
-                <img class="span8" src="img/unfoldpiece.png"/>
-                <img class="span4" src="img/logicthread.png"/>
-              </div>
-              <div class="row bottomrow">
-                <h3 class="span12">Raising the bar by lowering the barrier&trade;</h3>
-                <p class="span4">The canvases make it easy to engage stakeholders in the design effort, allowing them to contribute whatever they can, whenever they can, with spontaneity and speed, without necessarily being present at the same place or at the same time.
-Teams can work asynchronously and in parallel, building progressively faster on each piece of input, as the canvases accumulate content.</p>
-                <p class="span4">A single unbroken thread of logic passes through the 32 Design Functions across the two canvases.
-through readily integrate multiple perspectives and lines of inquiry; help teams elaborate, iterate</p>
-                <p class="span4">and draw conclusions on each other’s input; help identify conflicts and force meaningful discussions; provide multiple paths across the canvases to prevent deadlock; and they allow teams to cross-reference and fill in the blanks like in crosswords, Sudoku and Scrabble-type games.</p>
-              </div>
-            </div>
-            <!-- END Canvases / Closeup / Examine the logic threads -->
-            <!-- END SECTION 6 -->
-            
-            <!-- SECTION 7 -->
-            <!-- Giant Explanation image -->
-            <div class="slide span12" data-cycle-hash="seven">
-              <div class="row toprow">
-                <img class="span12" src="img/explanation.jpg" alt="Explanatory image of D#C process flow"/>
-              </div>
-              <div class="row bottomrow">
-                <h3 class="span12 text-center">Source code for design in the native languages of services</h3>
-              </div>
-            </div>
-            <!-- END Giant Explanation image -->
-            <!-- END SECTION 7 -->
-
-            <!-- SECTION 8 -->
-            <!-- Giant Explanation image -->
-            <div class="slide span12" data-cycle-hash="eight">
-              <div class="row toprow">
-                <div class="span4 offset4 reveal">
-                  <img class="fadeorder one" src="img/end1-beam.png"/>
-                  <img class="fadeorder two"  src="img/end2-story.png"/>
-                  <img class="fadeorder three"  src="img/end3-quilt.png"/>
-                  <img class="fadeorder four"  src="img/end4-target.png"/>
-                  <img class="fadeorder five"  src="img/end5-grid.png"/>
-                  <h2 class="muted jumbo text-center fadeoreder six">design<span>#</span>code</h2>
-                </div>
-              </div>
-              <div class="row bottomrow">
-                <div class="span4 offset4">
-                  <p>A system for developing breakthrough solutions in the form factor of services</p>
-                </div>
-              </div>
-            </div>
-            <!-- END Giant Explanation image -->
-            <!-- END SECTION 8 -->
-
-            <!-- SECTION 9 -->
-            <!-- Email Capture -->
-            <div class="slide span12" data-cycle-hash="nine">
-              <div class="row toprow">
-                <h1 class="span6 offset3 jumbo text-center">Watch this Space</h1>
-              </div>
-              <div class="row bottomrow">
-                <div class="span4 offset4">
-                  <p>Or, let us watch it for you.</p>
-                  <p>[EMAIL CAPTURE FIELD]</p>
-                </div>
-              </div>
-            </div>
-            <!-- END Email Capture -->
-            <!-- END SECTION 9 -->
-            
-            
-            <!-- PAGER @ THE BOTTOM -->
-            <!-- PAGER @ THE BOTTOM -->
-            <!-- PAGER @ THE BOTTOM -->
-            <div class="cycle-pager span6 offset3"></div>
-
           </div>
-  
-          <div class="span12 slidenav">
-            <a href=# id="prev" class="slidenav">&laquo;</a> 
-            <a href=# id="next" class="slidenav pull-right">&raquo;</a>
+          <!-- /END COLUMN 1 -->
+          
+          <!-column 2 -->
+          <div class="span4 columnss">
+            <div class="cycle-slideshow"
+              data-cycle-fx="fade"
+              data-cycle-timeout="0"
+              data-cycle-next="> div.slide"
+              data-cycle-slides="> div.slide"
+              data-cycle-auto-height="3"
+              data-cycle-allow-wrap="false"
+              >
+              <div class="slide">
+                <img src="img/openasic.jpg"/>
+                <p class="">It determines success in delivering complex value propositions;</p>
+              </div>
+              <div class="slide">
+                <p class="purplebg lead postit">Why do some services flourish and others, forgive the pun, flounder?</p>
+                <p class="">What gives some category leaders immunity from challengers? <br/>What gives some challengers the impunity to take on establishments?</p>
+              </div>
+              <div class="slide">
+                <p class="bluebg lead postit">Their services are hardier and more resistant to industry factors; costs & risks every player is exposed to.</p>
+                <p class="">Superior design provides an unfair advantage they fully exploit. Think of design as genetic code.</p>
+              </div>
+              <div class="slide">
+                <p class="greenbg lead postit">They package and deliver outcomes better than others; making sure that the quality of experience is not just a matter of users feeling good.</p>
+                <p class="">Outcomes – <br/>Price/Experience = <br/>Net Value <br/><br/>O-P/E=N <br/><br/>P/E = Total Cost of Utilization, or TCU</p>
+              </div>
+              <!-- pager! -->
+              <div class="cycle-pager"></div>
+            </div>
           </div>
-
+          <!-- /END COLUMN 2 -->
+          
+          <!-column 3 -->
+          <div class="span4 columnss">
+            <div class="cycle-slideshow"
+              data-cycle-fx="fade"
+              data-cycle-timeout="0"
+              data-cycle-next="> div.slide"
+              data-cycle-slides="> div.slide"
+              data-cycle-auto-height="3"
+              data-cycle-allow-wrap="false"
+              >
+              <div class="slide">
+                <img src="img/openasic.jpg"/>
+                <p>It shapes business strategy and government policy;</p>
+              </div>
+              <div class="slide">
+                <p class="purplebg lead postit">The business model is pitch perfect and the strategy is sound. <br/>Government policy is clear about about what’s best in the public interest.</p>
+                <p>How do you make sure policy and strategy won’t fall flat in implementation and operation?</p>
+              </div>
+              <div class="slide">
+                <p class="bluebg lead postit">Every layer and unit in the enterprise should correctly read, interpret and execute policy and strategy.</p>
+                <p>Design is an expression of policy and strategy in the form of code; we know good code makes all the difference.</p>
+              </div>
+              <div class="slide">
+                <p class="greenbg lead postit">Good design reduces the risk the expected value fails to materialize. <br/>Great design creates unexpected value with superior outcomes and experiences at a lower cost.</p>
+                <p>Outcomes – <br/>Price/Experience = <br/>Net Value <br/><br/>O-P/E=N <br/><br/>P/E = Total Cost of Utilization, or TCU</p>
+              </div>
+              <!-- pager! -->
+              <div class="cycle-pager"></div>
+            </div>
+          </div>
+          <!-- /END COLUMN 3 -->
         </div>
-      </div>
-    </section>
+      </section>
+    </article>
+    <!-- / Intro!
+    ================================================== -->
+
+    <!-- Einstein Quote!
+    ================================================== -->
+    <article id="quote" class="subsection">
+      <section class="container">
+        <div class="row">
+          <h2 class="span8 offset2 bigquote"><span>&ldquo;</span>If at first, the idea is not absurd, then there is no hope for it.<span>&rdquo;</span></h2>
+          <p class="span8 offset2 byline">&mdash; Albert Einstein</p>
+        </div>
+      </section>
+    </article>
+    <!-- / Einstein Quote!
+    ================================================== -->
+
+    <!-- Main Logic Explaination!
+    ================================================== -->
+    <article id="logic" class="subsection">
+      <section class="container main">
+        <div class="row">
+  
+          <div id="slideshow">
+            <!-- main slideshow -->
+            <div class="cycle-slideshow ss"
+              data-cycle-fx="fadeOut"
+              data-cycle-timeout="0"
+              data-cycle-prev="#prev"
+              data-cycle-next="#next"
+              data-cycle-slides="> div.slide"
+              data-cycle-auto-height="6"
+              data-cycle-allow-wrap="false"
+              >
+              
+              <!-- SECTION 3 -->
+              <!-- Logic basics! -->
+              <div class="slide span12" data-cycle-hash="three">
+                <div class="row toprow">
+                  <img class="span4" src="img/1postits-yellow.png"/>
+                  <img class="span4" src="img/2justicons.png"/>
+                  <img class="span4" src="img/3postits-colored.png"/>
+                </div>
+                <div class="row bottomrow">
+                  <p class="span4"><strong>Everybody can code</strong> <br/>Punched cards and paper tape were once used to write computer code. Of course, not everybody could program a computer. <br/><br/>Imagine a new kind of code using Post-It Notes®, making programmers out of Army officers and physicians; field agents, supervisors and technicians; postal workers and flight attendants; the policymaker and the legislator.</p>
+                  <p class="span4"><strong>Ideas, observations, and insight</strong> <br/>They may not be designers but they know a lot about getting a particular job done, better, faster and cheaper. <br/><br/>They have ideas, observations and insight, in their heads and across various files and formats, they routinely put these into messages and meeting notes; sketches and diagrams; maps and plans; spreadsheets and charts. They tag photos and videos.</p>
+                  <p class="span4"><strong>Embedded logic</strong> <br/>In there are design statements; except that nobody is really sure or aware. Organizations are inherently noisy. <br/><br/>What if an embedded logic could filter the noise and passively convert these statements and expressions into a rich and complete design? As new ideas, observations and insights flow, the design updates itself; or at least begs for attention!</p>
+                </div>
+              </div>
+              <!-- END logic basics -->
+              <!-- END SECTION 3 -->
+  
+              <!-- SECTION 4 -->
+              <!-- ARguments and perspectives -->
+              <div class="slide span12" data-cycle-hash="four">
+                <div class="row toprow">
+                  <img class="span4" src="img/4postitsandcode.png"/>
+                  <img class="span4" src="img/5justcode.png"/>
+                  <img class="span4" src="img/6codeandicons.png"/>
+                </div>
+                <div class="row bottomrow">
+                  <p class="span4"><strong>32 Design Functions</strong> <br/>Describe every aspect of a service in terms of structure and behaviour; they define the service genome.</p>
+                  <p class="span4"><strong>24 Design Arguments</strong> <br/>For expressing ideas, observations & insight; the vocabulary of the Design Functions; as simple as HTML tags</p>
+                  <p class="span4"><strong>8 Design Perspectives</strong> <br/>Without them, no value proposition are not complete; customer and service provider perspectives; the hidden cube</p>
+                </div>
+              </div>
+              <!-- END Arguments and perspectives -->
+              <!-- END SECTION 4 -->
+  
+              <!-- SECTION 5 -->
+              <!-- Canvases / Good Design Fast -->
+              <div class="slide span12" data-cycle-hash="five">
+                <div class="row toprow sizeadjust">
+                  <img class="span4 canvas unfold" src="img/unfoldicon.png"/>
+                  <img class="span4" src="img/6codeandicons.png"/>
+                  <img class="span4 canvas fold" src="img/foldicon.png"/>
+                </div>
+                <div class="row bottomrow">
+                  <h3 class="span12">Good design, fast&trade;</h3>
+                  <p class="span4">design#code combines the tradition of industrial design with the tradecraft of strategy, to generate superior designs in fast cycles. A pair of design canvases embed a service design logic, based on economics, industrial engineering and organization science.</p>
+                  <p class="span4">Like spreadsheets for design, when complete, the canvases passively generate the design of a service product, in the form of an instruction set or pseudo code, that teams can implement. Encoded in design are the provider’s business model and strategy.</p>
+                  <p class="span4">Each canvas has a 4x4 grid of interlocked panels that represent the 32 Design Functions that process design input (canvas content) into meaningful information on one or more aspects of a service design. Each panel also acts as a special folder for maintaining and updating the design</p>
+                </div>
+              </div>
+              <!-- END Canvases / Good Design Fast -->
+              <!-- END SECTION 5 -->
+  
+              <!-- SECTION 6 -->
+              <!-- Canvases / Closeup / Examine the logic threads -->
+              <div class="slide span12" data-cycle-hash="six">
+                <div class="row toprow graybg">
+                  <img class="span8" src="img/unfoldpiece.png"/>
+                  <img class="span4" src="img/logicthread.png"/>
+                </div>
+                <div class="row bottomrow">
+                  <h3 class="span12">Raising the bar by lowering the barrier&trade;</h3>
+                  <p class="span4">The canvases make it easy to engage stakeholders in the design effort, allowing them to contribute whatever they can, whenever they can, with spontaneity and speed, without necessarily being present at the same place or at the same time.
+  Teams can work asynchronously and in parallel, building progressively faster on each piece of input, as the canvases accumulate content.</p>
+                  <p class="span4">A single unbroken thread of logic passes through the 32 Design Functions across the two canvases.
+  through readily integrate multiple perspectives and lines of inquiry; help teams elaborate, iterate</p>
+                  <p class="span4">and draw conclusions on each other’s input; help identify conflicts and force meaningful discussions; provide multiple paths across the canvases to prevent deadlock; and they allow teams to cross-reference and fill in the blanks like in crosswords, Sudoku and Scrabble-type games.</p>
+                </div>
+              </div>
+              <!-- END Canvases / Closeup / Examine the logic threads -->
+              <!-- END SECTION 6 -->
+              
+              <!-- SECTION 7 -->
+              <!-- Giant Explanation image -->
+              <div class="slide span12" data-cycle-hash="seven">
+                <div class="row toprow">
+                  <img class="span12" src="img/explanation.jpg" alt="Explanatory image of D#C process flow"/>
+                </div>
+                <div class="row bottomrow">
+                  <h3 class="span12 text-center">Source code for design in the native languages of services</h3>
+                </div>
+              </div>
+              <!-- END Giant Explanation image -->
+              <!-- END SECTION 7 -->
+  
+              <!-- SECTION 8 -->
+              <!-- Giant Explanation image -->
+              <div class="slide span12" data-cycle-hash="eight">
+                <div class="row toprow">
+                  <div class="span4 offset4 reveal">
+                    <img class="fadeorder one" src="img/end1-beam.png"/>
+                    <img class="fadeorder two"  src="img/end2-story.png"/>
+                    <img class="fadeorder three"  src="img/end3-quilt.png"/>
+                    <img class="fadeorder four"  src="img/end4-target.png"/>
+                    <img class="fadeorder five"  src="img/end5-grid.png"/>
+                    <h2 class="muted jumbo text-center fadeoreder six">design<span>#</span>code</h2>
+                  </div>
+                </div>
+                <div class="row bottomrow">
+                  <div class="span4 offset4">
+                    <p>A system for developing breakthrough solutions in the form factor of services</p>
+                  </div>
+                </div>
+              </div>
+              <!-- END Giant Explanation image -->
+              <!-- END SECTION 8 -->
+  
+              <!-- PAGER @ THE BOTTOM -->
+              <!-- PAGER @ THE BOTTOM -->
+              <!-- PAGER @ THE BOTTOM -->
+              <div class="cycle-pager span6 offset3"></div>
+  
+            </div>
+    
+            <div class="span12 slidenav">
+              <a href=# id="prev" class="slidenav">&laquo;</a> 
+              <a href=# id="next" class="slidenav pull-right">&raquo;</a>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+    </article>
     <!-- end the intro text stuff -->
+    <!-- / Main Logic Explaination!
+    ================================================== -->
     
-    <hr class="container add-top add-bottom" />
+    <!-- / Email Capture!
+    ================================================== -->
+    <article id="stayinformed" class="subsection">
+      <section class="container">
+        <div class="row toprow">
+          <h1 class="span6 offset3 jumbo text-center">Watch this Space</h1>
+        </div>
+        <div class="row bottomrow">
+          <div class="span4 offset4">
+            <p>Or, let us watch it for you.</p>
+            <p>[EMAIL CAPTURE FIELD]</p>
+          </div>
+        </div>
+      </section>
+    </article>
+    <!-- / Email Capture!
+    ================================================== -->
     
+    <!-- Footer!
+    ================================================== -->
     <footer class="container">
       <p class="pull-right"><small>&copy;2013 Design#Code LLC</small></p>
     </footer>
@@ -332,7 +344,6 @@ through readily integrate multiple perspectives and lines of inquiry; help teams
 
     <!-- custom OOKB styles added on top -->
     <script src="js/dc.js"></script>
-
 
   </body>
 </html>
