@@ -1,4 +1,15 @@
 /* type declarations */
+
+html {
+  color: rgba(153,153,153,1);
+  min-height: 101%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Calibri, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
   color: rgba(153,153,153,1);
@@ -20,6 +31,10 @@ header h1 span,
   color: rgba(88,139,161,1);
 }
 
+article.subsection {
+  margin-bottom: 500px;
+  padding-top: 20px;
+}
 /* ===================== */
 /* SLIDESHOW AND RELATED */
 /* ===================== */
@@ -63,7 +78,7 @@ header h1 span,
 
 .postit {
   background: transparent url(../img/postitcorner.png) right bottom no-repeat;
-  padding: 20px;
+  padding: 20px 20px 40px;
   margin: -9px -9px 10px -9px;
 }
 
@@ -72,6 +87,13 @@ header h1 span,
 .greenbg   { background-color: rgba(166,218,144,1); }
 .yellowbg  { background-color: rgba(239,239,191,1); }
 .graybg    { background-color: rgba(224,224,224,1); }
+
+.bottomalign {
+  vertical-align: bottom;
+  display: table-cell;
+  color: #444;
+  font-weight: bold;
+  }
 
 .columnss .lead {
   height: 260px;
@@ -108,5 +130,18 @@ img.unfold {
   line-height: 1.1;
   text-indent: -25px;
   padding: 1em 0;
+}
+
+/* stacked images fading to text... */
+#revealing .reveal {
+  position: relative;
+  min-height: 300px;
+}
+#revealing .reveal .fadeorder {
+  width: 300px;
+  height:300px;
+  position: absolute;
+  top:0;
+  left:0;
 }
 
