@@ -46,7 +46,7 @@
         <div class="row">
           <!-column 1 -->
           <div class="span4 columnss">
-            <div class="cycle-slideshow"
+            <div class="cycle-slideshow uno"
               data-cycle-fx="fade"
               data-cycle-timeout="0"
               data-cycle-next="> div.slide"
@@ -79,7 +79,7 @@
           
           <!-column 2 -->
           <div class="span4 columnss">
-            <div class="cycle-slideshow"
+            <div class="cycle-slideshow dos"
               data-cycle-fx="fade"
               data-cycle-timeout="0"
               data-cycle-next="> div.slide"
@@ -111,7 +111,7 @@
           
           <!-column 3 -->
           <div class="span4 columnss">
-            <div class="cycle-slideshow"
+            <div class="cycle-slideshow tres"
               data-cycle-fx="fade"
               data-cycle-timeout="0"
               data-cycle-next="> div.slide"
@@ -263,15 +263,21 @@
   
               <!-- SECTION 8 -->
               <!-- Giant Explanation image -->
-              <div class="slide span12" data-cycle-hash="eight">
+              <div class="slide span12" data-cycle-hash="eight" id="revealing"> 
                 <div class="row toprow">
-                  <div class="span4 offset4 reveal">
-                    <img class="fadeorder one" src="img/end1-beam.png"/>
-                    <img class="fadeorder two"  src="img/end2-story.png"/>
-                    <img class="fadeorder three"  src="img/end3-quilt.png"/>
-                    <img class="fadeorder four"  src="img/end4-target.png"/>
-                    <img class="fadeorder five"  src="img/end5-grid.png"/>
-                    <h2 class="muted jumbo text-center fadeoreder six">design<span>#</span>code</h2>
+                  <div class="span4 offset4 reveal cycle-slideshow inner-slideshow"
+                    data-cycle-fx="fadeOut"
+                    data-cycle-timeout="500"
+                    data-cycle-slides="> div"
+                    data-cycle-loop="1"
+                    data-cycle-allow-wrap="false"
+                    >
+                    <div><img class="fadeorder one" src="img/end1-beam.png"/></div>
+                    <div><img class="fadeorder two"  src="img/end2-story.png"/></div>
+                    <div><img class="fadeorder three"  src="img/end3-quilt.png"/></div>
+                    <div><img class="fadeorder four"  src="img/end4-target.png"/></div>
+                    <div><img class="fadeorder five"  src="img/end5-grid.png"/></div>
+                    <div><h2 class="muted jumbo text-center fadeoreder six">design<span>#</span>code</h2></div>
                   </div>
                 </div>
                 <div class="row bottomrow">
@@ -331,9 +337,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
-    <script src="http://jquery.malsup.com/cycle2/jquery.cycle2.center.js"></script>
     <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap.js"></script>
+    <script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+    <script src="http://malsup.github.io/min/jquery.cycle2.center.min.js"></script>
+    <script src="http://malsup.github.io/min/jquery.cycle2.swipe.min.js"></script>
 
     <!-- custom OOKB styles added on top -->
     <script src="js/dc.js"></script>

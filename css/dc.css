@@ -91,6 +91,8 @@ header h1 span,
   width: 980px;
 }
 
+article.one.two.three {display: none;}
+
 img.canvas { 
   height: 300px;
   width: auto;
@@ -108,5 +110,3 @@ img.unfold {
   padding: 1em 0;
 }
 
-
-/**** trying to center things in divs... */
