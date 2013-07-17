@@ -1,39 +1,26 @@
-//getting icon fadein figured out
-$(".fadeorder").hide();
 
+$('.scroll').click(function(event){    
+  event.preventDefault();
+  $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+});
+
+//getting icon fadein figured out
+$('.fadeorder').hide();
 
 /************/
 
-var uno = $('.columnss .cycle-slideshow.uno');
+var uno = $('.uno .cycle-slideshow');
+var dos = $('.dos .cycle-slideshow');
+var tres = $('.tres .cycle-slideshow');
 
-uno.on('cycle-finished', function(event, opts) {
-  hide();
+uno.on('cycle-finished', function() {
+  $('#intro').addClass('one');
 });
 
-
-var outer = $('#slideshow');
-var inners = $('.inner-slideshow');
-var output = $('#output');
-
-inners.on( 'cycle-finished', function( e, opts, curr, next ) {
-    setTimeout(function() {
-        outer.cycle( 'next' );
-    }, 3000);
+dos.on('cycle-finished', function() {
+  $('#intro').addClass('two');
 });
 
-$('#slideshow').on( 'cycle-before', function( e, opts, curr, next ) {
-    // ignore bubbled events from inner slideshows
-    if (e.target !== this)
-        return;
-
-    inners.cycle('stop');
-
-    var index = opts.slides.index( next );
-    output.html( 'starting slideshow #' + (index+1) );
-
-    // start the next slideshow
-    $( next ).find('.inner-slideshow').cycle('destroy').cycle({
-        timeout: 3000
-    });
+tres.on('cycle-finished', function() {
+  $('#intro').addClass('three');
 });
-

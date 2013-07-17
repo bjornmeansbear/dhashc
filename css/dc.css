@@ -14,9 +14,13 @@ body {
   font-family: "Helvetica Neue", Helvetica, Calibri, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
   color: rgba(153,153,153,1);
 }
+
 /* end type declarations */
 
 /* main layout */
+
+#intro.one.two.three {background: red !important;}
+
 header {
   margin-top:1em;
   margin-bottom:2em;
@@ -112,8 +116,6 @@ article.subsection {
   padding-right: 20px;
   width: 980px;
 }
-
-article.one.two.three {display: none;}
 
 img.canvas { 
   height: 300px;
