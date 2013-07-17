@@ -1,4 +1,8 @@
+//getting icon fadein figured out
 $(".fadeorder").hide();
+
+
+/************/
 
 var uno = $('.columnss .cycle-slideshow.uno');
 
