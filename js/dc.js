@@ -56,7 +56,7 @@ $('#slideshow .cycle-slideshow').on('cycle-initialized', function() {
   var sshgt = $('#slideshow .measure').height();
   $('#slideshow .slidenav .row').height(sshgt).css('margin-top',-sshgt-50);
   $('#slideshow .slidenav .row .span3').height(sshgt);
-  $('#slideshow .slidenav .row .span3 a').height(sshgt/2).css('padding-top',(sshgt/2)-50);
+  $('#slideshow .slidenav .row .span3 a').height((sshgt/2)+50).css('padding-top',(sshgt/2)-50);
 });
 
 //getting icon fadein figured out
