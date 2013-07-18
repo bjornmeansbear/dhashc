@@ -1,4 +1,8 @@
 
+/* Navigation related stuff */
+/* Navigation related stuff */
+/* Navigation related stuff */
+/* Navigation related stuff */
 $('.scroll').click(function(event){    
   event.preventDefault();
   $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
@@ -32,6 +36,12 @@ $(window).resize(function() {
   $('#quote').css("padding-top",pad);
 });
 
+/* END Navigation related stuff */
+/* END Navigation related stuff */
+/* END Navigation related stuff */
+/* END Navigation related stuff */
+
+
 /************/
 
 var uno  = $('.uno .cycle-slideshow');
@@ -53,7 +63,6 @@ tres.on('cycle-finished', function() {
   $('#intro').addClass('three');
 /*   $('.tres .minipostit-pager').fadeOut(fs); */
 });
-
 
 /************/
 
