@@ -4,27 +4,44 @@ $('.scroll').click(function(event){
   $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
 });
 
-//getting icon fadein figured out
-$('.fadeorder').hide();
+$('#quote').click(function(event){    
+  event.preventDefault();
+  $('html,body').animate({scrollTop:$('#logic').offset().top}, 800);
+});
+
+$(window).load(function() {
+  var wh  = $(window).height();
+  var qh  = $('#quote').height();
+  var pad = ((wh-qh)/2);
+  $('#quote').height(wh);
+  $('#quote').css("padding-top",pad);
+});
 
 /************/
 
-var uno = $('.uno .cycle-slideshow');
-var dos = $('.dos .cycle-slideshow');
+var uno  = $('.uno .cycle-slideshow');
+var dos  = $('.dos .cycle-slideshow');
 var tres = $('.tres .cycle-slideshow');
+var fs   = 1000;
 
 uno.on('cycle-finished', function() {
   $('#intro').addClass('one');
-  $('.uno .cycle-pager').fadeOut(300);
+/*   $('.uno .minipostit-pager').fadeOut(fs); */
 });
 
 dos.on('cycle-finished', function() {
   $('#intro').addClass('two');
-  $('.dos .cycle-pager').fadeOut(300);
+/*   $('.dos .minipostit-pager').fadeOut(fs); */
 });
 
 tres.on('cycle-finished', function() {
   $('#intro').addClass('three');
-  $('.tres .cycle-pager').fadeOut(300);
+/*   $('.tres .minipostit-pager').fadeOut(fs); */
 });
+
+
+/************/
+
+//getting icon fadein figured out
+/* $('.fadeorder').hide(); */
 

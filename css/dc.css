@@ -19,7 +19,7 @@ body {
 
 /* main layout */
 
-#intro .pagedown {display: none;}
+#intro .pagedown {display: none; margin-top:40px;}
 #intro.one.two.three .pagedown {display: block;}
 
 header {
@@ -40,6 +40,14 @@ article.subsection {
   margin-bottom: 500px;
   padding-top: 20px;
 }
+
+#quote {
+  margin-bottom: 100px;
+  padding-top: 0;
+  cursor: pointer;
+}
+
+
 /* ===================== */
 /* SLIDESHOW AND RELATED */
 /* ===================== */
@@ -58,11 +66,13 @@ article.subsection {
 }
 
 /* pager */
+.minipostit-pager,
 .cycle-pager { 
   overflow: hidden;
   position: relative;
   text-align: center; 
   top: 25px;
+  height:50px;
   z-index: 500; 
 }
 .cycle-pager span { 
@@ -79,19 +89,39 @@ article.subsection {
 }
 .cycle-pager > * { cursor: pointer;}
 
+.minipostit-pager span {
+  cursor: pointer; 
+  display: inline-block; 
+  height: 20px; 
+  width: 20px; 
+  overflow: hidden;
+  text-indent: -9999999px;
+  margin: 0 2px;
+}
+
+.minipostit-pager span.cycle-pager-active {
+  background: #444;
+}
+
 .slidenav, #prev, #next { position:relative; z-index: 499 !important; }
 
 .postit {
-  background: transparent url(../img/postitcorner.png) right bottom no-repeat;
-  padding: 20px 20px 40px;
-  margin: -9px -9px 10px -9px;
+/*   background: transparent url(../img/postitcorner.png) right bottom no-repeat; */
+  padding: 20px;
+/*   margin: -9px -9px 10px -9px; */
+  margin: -10px -10px 10px -10px;
 }
 
-.purplebg  { background-color: rgba(228,204,230,1); }
-.bluebg    { background-color: rgba(179,217,254,1); }
-.greenbg   { background-color: rgba(166,218,144,1); }
-.yellowbg  { background-color: rgba(239,239,191,1); }
-.graybg    { background-color: rgba(224,224,224,1); }
+.yellowbg, .minipostit { background-color: rgba(239,239,191,1); }
+.purplebg, .slide2     { background-color: rgba(228,204,230,1); }
+.bluebg, .slide3       { background-color: rgba(179,217,254,1); }
+.greenbg, .slide4      { background-color: rgba(166,218,144,1); }
+.graybg                { background-color: rgba(224,224,224,1); }
+.piyellow              { color: rgba(239,239,191,1); }
+.pipurple              { color: rgba(228,204,230,1); }
+.piblue                { color: rgba(179,217,254,1); }
+.pigreen               { color: rgba(166,218,144,1); }
+.pigray                { color: rgba(224,224,224,1); }
 
 .bottomalign {
   vertical-align: bottom;
@@ -132,7 +162,15 @@ img.unfold {
   font-size: 400%;
   line-height: 1.1;
   text-indent: -25px;
-  padding: 1em 0;
+  padding: 0 0 1em 0;
+}
+
+#quote .byline {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-indent: -25px;
+  letter-spacing: 1px;
 }
 
 /* stacked images fading to text... */
