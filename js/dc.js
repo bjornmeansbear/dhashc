@@ -9,6 +9,12 @@ $('#quote').click(function(event){
   $('html,body').animate({scrollTop:$('#logic').offset().top}, 800);
 });
 
+$('.masthead a').click(function(event){
+  event.preventDefault();
+  $('ul.nav li').removeClass('active');
+  $(this).parent().addClass('active');
+});
+
 // layout quote section nicely
 $(window).load(function() {
   var wh  = $(window).height();
