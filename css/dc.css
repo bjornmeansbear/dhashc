@@ -103,11 +103,27 @@ article.subsection {
   background: #444;
 }
 
-.slidenav, #prev, #next { 
+.slidenav { 
   display: block;
   position:relative; 
   z-index: 499 !important;
-  /**/
+  }
+
+.slidenav .row,
+.slidenav .row .span2, 
+.slidenav .row .span2 a { 
+  display: block;
+  height: 100%;
+  }
+
+.slidenav .row,
+.slidenav .row .span3 { 
+  height: 100%;
+  }
+
+.slidenav .row .span3 a { 
+  font-size: 100px;
+  line-height: 100px;
   background: red;
   }
 
