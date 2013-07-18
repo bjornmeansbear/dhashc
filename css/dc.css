@@ -103,7 +103,13 @@ article.subsection {
   background: #444;
 }
 
-.slidenav, #prev, #next { position:relative; z-index: 499 !important; }
+.slidenav, #prev, #next { 
+  display: block;
+  position:relative; 
+  z-index: 499 !important;
+  /**/
+  background: red;
+  }
 
 .postit {
 /*   background: transparent url(../img/postitcorner.png) right bottom no-repeat; */

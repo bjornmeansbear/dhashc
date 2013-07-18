@@ -195,6 +195,8 @@
               data-cycle-slides="> div.slide"
               data-cycle-auto-height="4"
               data-cycle-allow-wrap="false"
+              data-cycle-pager="> .minipostit-pager"
+              data-cycle-pager-template='<span class="minipostit"><a href=#> {{slideNum}} </a></span>'
               >
               
               <!-- SECTION 3 -->
@@ -306,13 +308,15 @@
               <!-- PAGER @ THE BOTTOM -->
               <!-- PAGER @ THE BOTTOM -->
               <!-- PAGER @ THE BOTTOM -->
-              <div class="cycle-pager span6 offset3"></div>
-  
+<!--               <div class="cycle-pager span6 offset3"></div> -->
+              <div class="minipostit-pager span6 offset3"></div>
             </div>
     
             <div class="span12 slidenav">
-              <a href=# id="prev" class="slidenav">&laquo;</a> 
-              <a href=# id="next" class="slidenav pull-right">&raquo;</a>
+              <div class="row">
+                <div class="span2 pull-right text-right"><a href=# id="next" class="slidenav">&raquo;</a></div>
+                <div class="span2"><a href=# id="prev" class="slidenav">&laquo;</a></div>
+              </div>
             </div>
   
           </div>
