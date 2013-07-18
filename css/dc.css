@@ -128,9 +128,7 @@ article.subsection {
   }
 
 .postit {
-/*   background: transparent url(../img/postitcorner.png) right bottom no-repeat; */
   padding: 20px;
-/*   margin: -9px -9px 10px -9px; */
   margin: -10px -10px 10px -10px;
 }
 
