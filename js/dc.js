@@ -1,3 +1,5 @@
+// FITTEXT
+/* $(".fadeorder h2").fitText(); */
 
 /* Navigation related stuff */
 /* Navigation related stuff */
@@ -12,6 +14,11 @@ $('.scroll').click(function(event){
 $('#quote').click(function(event){    
   event.preventDefault();
   $('html,body').animate({scrollTop:$('#logic').offset().top}, 800);
+});
+
+$('.linktosi').click(function(event){    
+  event.preventDefault();
+  $('html,body').animate({scrollTop:$('#stayinformed').offset().top}, 800);
 });
 
 /*
