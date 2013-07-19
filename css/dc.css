@@ -1,7 +1,7 @@
 /* type declarations */
 
 html {
-  color: rgba(153,153,153,1);
+  color: rgba(77,77,77,1);
   min-height: 101%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Calibri, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
-  color: rgba(153,153,153,1);
+  color: rgba(77,77,77,1);
 }
 
 /* end type declarations */
@@ -23,6 +23,7 @@ body {
 #intro.one.two.three .pagedown {display: block;}
 
 header {
+  background: white;
   margin-top:1em;
   margin-bottom:2em;
   }
@@ -229,11 +230,17 @@ p.intro  { padding: 10px 28px; }
   width: 1140px;
 }
 
+/*
 .toprow.graybg {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
   width: 980px;
+}
+*/
+
+.outdent {
+  margin-left: 0;
 }
 
 img.canvas { 
