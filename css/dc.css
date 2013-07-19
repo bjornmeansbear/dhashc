@@ -295,3 +295,13 @@ img.unfold {
   margin: .66em 0;
 }
 
+.fadeorder h2 {
+  display: table-cell;
+  height: 300px;
+  vertical-align: center;
+  text-align: center;
+}
+
+.fadeorder p {
+  text-align: center;
+}
