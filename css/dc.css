@@ -40,7 +40,7 @@ header h1 span,
 
 article.subsection {
   margin-bottom: 500px;
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
 #quote {
@@ -61,7 +61,7 @@ footer {
 }
 
 .nav-pills > li > a {
-  color: rgba(88,139,161,1)
+  color: rgba(88,139,161,1);
   margin-right: 4px;
 }
 .nav-pills > .active > a, 
