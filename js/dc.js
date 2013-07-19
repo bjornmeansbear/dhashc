@@ -3,6 +3,7 @@
 /* Navigation related stuff */
 /* Navigation related stuff */
 /* Navigation related stuff */
+
 $('.scroll').click(function(event){    
   event.preventDefault();
   $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
@@ -13,11 +14,13 @@ $('#quote').click(function(event){
   $('html,body').animate({scrollTop:$('#logic').offset().top}, 800);
 });
 
+/*
 $('.masthead a').click(function(event){
   event.preventDefault();
   $('ul.nav li').removeClass('active');
   $(this).parent().addClass('active');
 });
+*/
 
 // layout quote section nicely
 $(window).load(function() {
