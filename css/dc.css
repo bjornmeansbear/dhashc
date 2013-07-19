@@ -42,11 +42,9 @@ article.subsection {
 }
 
 #quote {
-  margin-bottom: 100px;
   padding-top: 0;
   cursor: pointer;
 }
-
 
 /* ===================== */
 /* SLIDESHOW AND RELATED */
