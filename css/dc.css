@@ -39,8 +39,8 @@ header h1 span,
 }
 
 article.subsection {
-  margin-bottom: 500px;
-  padding-top: 100px;
+  margin-bottom: 400px;
+  padding-top: 20px;
 }
 
 #quote {
@@ -87,6 +87,10 @@ footer {
     padding: 20px 0;
   }
 
+  article.subsection {
+    margin-bottom: 500px;
+    padding-top: 100px;
+  }
 }
 
 /* end nav styles */
