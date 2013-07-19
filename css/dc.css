@@ -29,6 +29,8 @@ header {
 
 header h1 {
   font-size: 2em;
+  margin: 0;
+  padding: 0;
 }
 
 header h1 span,
@@ -38,11 +40,10 @@ header h1 span,
 
 article.subsection {
   margin-bottom: 500px;
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 #quote {
-  padding-top: 0;
   cursor: pointer;
 }
 
@@ -51,6 +52,44 @@ footer {
   margin-bottom: 40px;
   padding-top: 15px;
 }
+
+/* nav styles */
+
+.nav-pills {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.nav-pills > li > a {
+  color: rgba(88,139,161,1)
+  margin-right: 4px;
+}
+.nav-pills > .active > a, 
+.nav-pills > .active > a:hover, 
+.nav-pills > .active > a:focus {
+  background: rgba(88,139,161,1);
+}
+
+@media (min-width: 980px) {
+  header {
+    position: fixed;
+    top:0;
+    left:0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 99999;
+  }
+
+  header .container {
+    background: white;
+    padding: 1em 0 2em 0;
+  }
+
+}
+
+/* end nav styles */
 
 /* ===================== */
 /* SLIDESHOW AND RELATED */
