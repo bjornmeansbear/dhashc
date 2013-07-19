@@ -46,6 +46,12 @@ article.subsection {
   cursor: pointer;
 }
 
+footer {
+  border-top:1px solid;
+  margin-bottom: 40px;
+  padding-top: 15px;
+}
+
 /* ===================== */
 /* SLIDESHOW AND RELATED */
 /* ===================== */
@@ -69,7 +75,6 @@ article.subsection {
   overflow: hidden;
   position: relative;
   text-align: center; 
-  top: 25px;
   height:50px;
   z-index: 500; 
 }

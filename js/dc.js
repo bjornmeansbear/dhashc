@@ -23,17 +23,23 @@ $('.masthead a').click(function(event){
 $(window).load(function() {
   var wh  = $(window).height();
   var qh  = $('#quote').height();
-  var pad = ((wh-qh)/2);
-  $('#quote').height(wh-pad);
-  $('#quote').css("padding-top",pad);
+  var eh  = $('#stayinformed').height();
+  var qpad = ((wh-qh)/2);
+  var epad = ((wh-eh)/2);
+  $('#quote').height(wh-qpad);
+  $('#quote').css("padding-top",qpad);
+  $('#stayinformed').css("padding-top",epad);
 });
 
 $(window).resize(function() {
   var wh  = $(window).height();
-  var qh  = $('#quote .container').height();
-  var pad = ((wh-qh)/2);
-  $('#quote').height(wh-pad);
-  $('#quote').css("padding-top",pad);
+  var qh  = $('#quote').height();
+  var eh  = $('#stayinformed').height();
+  var qpad = ((wh-qh)/2);
+  var epad = ((wh-eh)/2);
+  $('#quote').height(wh-qpad);
+  $('#quote').css("padding-top",qpad);
+  $('#stayinformed').css("padding-top",epad);
 });
 
 /* END Navigation related stuff */
