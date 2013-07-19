@@ -101,6 +101,9 @@ footer {
 .columnss { position: relative; }
 #slideshow { position: relative; }
 
+.slide {display: none;}
+.slide:first-child {display: block;}
+
 /* slideshow images (for most of the demos, these are the actual "slides") */
 .cycle-slideshow img { 
   padding: 0; 
