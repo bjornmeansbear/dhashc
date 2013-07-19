@@ -282,3 +282,14 @@ img.unfold {
   left:0;
 }
 
+#stayinformed.jumbo h1 {
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+
+#stayinformed.jumbo p {
+  font-size: 200%;
+  line-height: 1.25;
+  margin: .66em 0;
+}
+
