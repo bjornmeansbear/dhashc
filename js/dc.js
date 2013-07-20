@@ -82,14 +82,6 @@ tres.on('cycle-finished', function() {
 
 /************/
 
-// slidenav stuff
-$('#slideshow .cycle-slideshow').on('cycle-initialized', function() {
-  var sshgt = $('#slideshow .measure').height();
-  $('#slideshow .slidenav .row').height(sshgt).css('margin-top',-sshgt-50);
-  $('#slideshow .slidenav .row .span3').height(sshgt);
-  $('#slideshow .slidenav .row .span3 a').height((sshgt/2)+50).css('padding-top',(sshgt/2)-50);
+$('#slideshow .cycle-slideshow').on('cycle-finished', function() {
+  $('#revealingss').cycle();
 });
-
-//getting icon fadein figured out
-/* $('.fadeorder').hide(); */
-
