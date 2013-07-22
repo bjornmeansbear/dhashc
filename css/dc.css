@@ -282,6 +282,30 @@ img.unfold {
   color: rgba(88,139,161,1); 
 }
 
+#quote2 { 
+ z-index: 1; 
+}
+
+.bigquote a {
+  color: rgba(88,139,161,1);
+  text-decoration: none;
+  border-bottom: 2px solid rgba(166,218,144,1);
+  transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+
+.bigquote a:hover {
+  border-color: rgba(88,139,161,1);
+  color: rgba(166,218,144,1);
+}
+
+.bigquote a.raisedabove {
+  z-index: 999999;
+}
+
 /* stacked images fading to text... */
 #revealing .reveal {
   position: relative;
@@ -293,8 +317,33 @@ img.unfold {
   position: absolute;
   top:0;
   left:0;
+  display: none;
 }
 
+#revealing .reveal .one {
+  display: block;
+}
+
+.fadeorder h1 {
+  height: 150px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.fadeorder .jumbo {
+  font-size: 100px;
+  margin-left: -140px;
+}
+
+.fadeorder p {
+  text-align: center;
+  font-size: 32px;
+  width: 640px;
+  margin-left: -160px;
+}
+
+
+/* EMAIL CAPTURE AT END */
 #stayinformed.jumbo h1 {
   font-size: 4em;
   margin-bottom: 1em;
@@ -306,14 +355,3 @@ img.unfold {
   margin: .66em 0;
 }
 
-.fadeorder h2 {
-  display: table-cell;
-  height: 300px;
-  vertical-align: middle;
-  text-align: center;
-  width: 100%;
-}
-
-.fadeorder p {
-  text-align: center;
-}
