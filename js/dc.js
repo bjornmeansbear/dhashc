@@ -13,6 +13,11 @@ $('.scroll').click(function(event){
 
 $('#quote').click(function(event){    
   event.preventDefault();
+  $('html,body').animate({scrollTop:$('#quote2').offset().top}, 800);
+});
+
+$('#quote2').click(function(event){    
+  event.preventDefault();
   $('html,body').animate({scrollTop:$('#logic').offset().top}, 800);
 });
 
@@ -31,13 +36,17 @@ $('.masthead a').click(function(event){
 
 // layout quote section nicely
 $(window).load(function() {
-  var wh  = $(window).height();
-  var qh  = $('#quote').height();
-  var eh  = $('#stayinformed').height();
-  var qpad = ((wh-qh)/2);
-  var epad = ((wh-eh)/2);
+  var wh    = $(window).height();
+  var qh    = $('#quote').height();
+  var qh2   = $('#quote2').height();
+  var eh    = $('#stayinformed').height();
+  var qpad  = ((wh-qh)/2);
+  var q2pad = ((wh-qh2)/2);
+  var epad  = ((wh-eh)/2);
   $('#quote').height(wh-qpad);
+  $('#quote2').height(wh-q2pad);
   $('#quote').css("padding-top",qpad);
+  $('#quote2').css("padding-top",q2pad);
   $('#stayinformed').css("padding-top",epad);
 });
 

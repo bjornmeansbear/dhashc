@@ -12,6 +12,8 @@ body {
   color: rgba(77,77,77,1);
 }
 
+.not-bold {font-weight: normal !important; }
+
 /* end type declarations */
 
 /* main layout */
@@ -68,6 +70,10 @@ footer {
   background: rgba(88,139,161,1);
 }
 
+.nav-pills > .active {
+  display: none;
+}
+
 @media (min-width: 980px) {
   header {
     position: fixed;
@@ -91,7 +97,9 @@ footer {
   }
 }
 
-#logic {min-height: 774px;}
+#logic {
+  min-height: 774px;
+}
 
 /* end nav styles */
 
