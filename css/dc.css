@@ -52,9 +52,7 @@ article.subsection {
 }
 
 footer {
-  border-top:1px solid;
   margin-bottom: 40px;
-  padding-top: 15px;
 }
 
 .no-bottom { margin-bottom: 0 !important;}
