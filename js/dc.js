@@ -25,12 +25,10 @@ $('#menu').hide();
 
 $(window).scroll(function() {
   var sd = $(window).scrollTop();
-  var ld = $('#logic').height();
-  if (sd >= ld ) {
-    $('#menu').fadeIn('fast');
+  var ld = $('#logic').offset().top;
+  if (sd >= ld-80 ) {
+    $('#menu').fadeIn('500');
   } else {}
-  
-  $('.sometext').text(ld);
 });
 
 /*
