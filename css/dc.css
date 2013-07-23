@@ -14,6 +14,8 @@ body {
 
 .not-bold {font-weight: normal !important; }
 
+.slide h3 { line-height: 30px; }
+
 /* end type declarations */
 
 /* main layout */

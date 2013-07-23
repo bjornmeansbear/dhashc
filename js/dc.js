@@ -21,6 +21,18 @@ $('.linktosi').click(function(event){
   $('html,body').animate({scrollTop:$('#stayinformed').offset().top}, 800);
 });
 
+$('#menu').hide();
+
+$(window).scroll(function() {
+  var sd = $(window).scrollTop();
+  var ld = $('#logic').height();
+  if (sd >= ld ) {
+    $('#menu').fadeIn('fast');
+  } else {}
+  
+  $('.sometext').text(ld);
+});
+
 /*
 $('.masthead a').click(function(event){
   event.preventDefault();
