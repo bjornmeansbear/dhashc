@@ -21,6 +21,8 @@ body {
 #intro .pagedown {display: none; margin-top:40px;}
 #intro.one.two.three .pagedown {display: block;}
 
+.add-top { margin-top: 60px; }
+
 header {
   background: white;
   margin-top:1em;
@@ -337,6 +339,9 @@ img.unfold {
 
 .fadeorder p {
   text-align: center;
+}
+
+.fadeorder p.lead {
   font-size: 32px;
   width: 640px;
   margin-left: -160px;
