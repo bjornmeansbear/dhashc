@@ -360,3 +360,7 @@ img.unfold {
   margin: .66em 0;
 }
 
+
+/* Various styling fixes */
+
+.slide img {width: 300px;}
