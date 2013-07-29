@@ -363,4 +363,5 @@ img.unfold {
 
 /* Various styling fixes */
 
-.slide img {width: 300px;}
+img { width: 100%; }
+.slide img { width: 300px; }
