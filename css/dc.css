@@ -337,9 +337,11 @@ img.unfold {
 #revealing .reveal .fadeorder {
   width: 300px;
   height:300px;
-  position: absolute;
-  top:0;
-  left:0;
+  display: none;
+}
+
+#revealing .reveal .one {
+  display: block;
 }
 
 .fadeorder h1 {
