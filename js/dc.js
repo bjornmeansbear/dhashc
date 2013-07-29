@@ -1,7 +1,8 @@
-// FITTEXT
-/* $(".fadeorder h2").fitText(); */
+// Custom JS for dhashc.com
+// extend and customize bootstrap & cycle2, as well as add unique, custom functions
 
-/* Navigation related stuff */
+/************/
+
 /* Navigation related stuff */
 /* Navigation related stuff */
 /* Navigation related stuff */
@@ -30,6 +31,15 @@ $(window).scroll(function() {
     $('#menu').fadeIn('500');
   } else {}
 });
+/* END Navigation related stuff */
+/* END Navigation related stuff */
+/* END Navigation related stuff */
+
+
+
+
+
+/************/
 
 // layout quote section nicely
 $(window).load(function() {
@@ -62,10 +72,8 @@ $(window).resize(function() {
   $('#stayinformed').css("padding-top",epad);
 });
 
-/* END Navigation related stuff */
-/* END Navigation related stuff */
-/* END Navigation related stuff */
-/* END Navigation related stuff */
+
+
 
 
 /************/
