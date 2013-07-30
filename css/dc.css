@@ -1,7 +1,7 @@
 /* type declarations */
 
 html {
-  color: rgba(77,77,77,1);
+  color: #444;
   min-height: 101%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Calibri, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
-  color: rgba(77,77,77,1);
+  color: #444;
 }
 
 .not-bold {font-weight: normal !important; }
@@ -44,7 +44,7 @@ header h1 {
 
 header h1 span,
 .jumbo span {
-  color: rgba(88,139,161,1);
+  color: #588BA1;
 }
 
 article.subsection {
@@ -76,13 +76,13 @@ footer {
 }
 
 .nav-pills > li > a {
-  color: rgba(88,139,161,1);
+  color: #588BA1;
   margin-right: 4px;
 }
 .nav-pills > .active > a, 
 .nav-pills > .active > a:hover, 
 .nav-pills > .active > a:focus {
-  background: rgba(88,139,161,1);
+  background: #588BA1;
 }
 
 .nav-pills > .active {
@@ -249,7 +249,7 @@ img.canvas {
   font-weight: bold;
   text-indent: -25px;
   letter-spacing: 1px;
-  color: rgba(88,139,161,1); 
+  color: #588BA1; 
 }
 
 #quote2 { 
@@ -257,9 +257,9 @@ img.canvas {
 }
 
 .bigquote a {
-  color: rgba(88,139,161,1);
+  color: #588BA1;
   text-decoration: none;
-  border-bottom: 2px solid rgba(166,218,144,1);
+  border-bottom: 2px solid #A6DA90;
   transition: all 500ms;
   -moz-transition: all 500ms;
   -webkit-transition: all 500ms;
@@ -268,8 +268,8 @@ img.canvas {
 }
 
 .bigquote a:hover {
-  border-color: rgba(88,139,161,1);
-  color: rgba(166,218,144,1);
+  border-color: #588BA1;
+  color: #A6DA90;
 }
 
 .bigquote a.raisedabove {
