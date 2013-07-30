@@ -180,48 +180,6 @@ footer {
   background: #444;
 }
 
-/* #slideshow nav controls */
-/* #slideshow nav controls */
-/* #slideshow nav controls */
-.slidenav { 
-  display: block;
-  position:relative; 
-  z-index: 499 !important;
-  }
-
-.slidenav .row,
-.slidenav .row .span2, 
-.slidenav .row .span2 a { 
-  display: block;
-  height: 100%;
-  }
-
-.slidenav .row,
-.slidenav .row .span3 { 
-  height: 100%;
-  }
-
-.slidenav .row .span3 a { 
-  opacity: 0;
-  background: rgba(255,255,255,.75);
-  font-size: 100px;
-  line-height: 100px;
-  text-align: center;
-  text-decoration: none;
-  color: rgba(88,139,161,1);
-  /**/
-  transition: opacity 1s;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -ms-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  }
-.slidenav .row .span3 a:hover { 
-  opacity: 1;
-  }
-/* /end slideshow nav controls */
-/* /end slideshow nav controls */
-/* /end slideshow nav controls */
 
 /* ======================================== */
 /* ======================================== */
