@@ -126,7 +126,7 @@ footer {
 /* ===================== */
 /* SLIDESHOW AND RELATED */
 /* ===================== */
-.columnss { position: relative; }
+.columnss { position: relative; cursor: pointer; }
 #slideshow { position: relative; }
 
 .slide {display: none;}
