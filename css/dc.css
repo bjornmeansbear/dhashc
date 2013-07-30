@@ -189,18 +189,13 @@ footer {
 .postit {
   padding: 20px;
   margin: -10px -10px 10px -10px;
+  color: #444;
 }
 
-.yellowbg, .minipostit { background-color: rgba(239,239,191,1); }
-.purplebg, .slide2     { background-color: rgba(228,204,230,1); }
-.bluebg, .slide3       { background-color: rgba(179,217,254,1); }
-.greenbg, .slide4      { background-color: rgba(166,218,144,1); }
-.graybg                { background-color: rgba(224,224,224,1); }
-.piyellow              { color: rgba(239,239,191,1); }
-.pipurple              { color: rgba(228,204,230,1); }
-.piblue                { color: rgba(179,217,254,1); }
-.pigreen               { color: rgba(166,218,144,1); }
-.pigray                { color: rgba(224,224,224,1); }
+.yellowbg, .minipostit { background-color: #EFEFBF; }
+.purplebg, .slide2     { background-color: #E4CCE6; }
+.bluebg, .slide3       { background-color: #B3D9FE; }
+.greenbg, .slide4      { background-color: #A6DA90; }
 
 .bottomalign {
   vertical-align: bottom;
