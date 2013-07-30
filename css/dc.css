@@ -260,23 +260,35 @@ p.intro  { padding: 10px 28px; }
 .toprow    { min-height: 30px; margin-bottom: 20px;}
 /* .bottomrow { min-height: 120px; } */
 
-.toprow.sizeadjust {
-  margin-left: -100px;
-  width: 1140px;
-}
-
 .outdent {
   margin-left: 0;
 }
 
 img.canvas { 
-  height: 300px;
-  width: auto;
+  height: auto;
+  width: 300px;
+  margin-top:30px;
 }
 
-img.unfold {
-  margin: 0;
+@media (min-width: 1140px) {
+
+  .toprow.sizeadjust {
+    margin-left: -100px;
+    width: 1140px;
+  }
+
+  img.canvas { 
+    height: 300px;
+    width: auto;
+    margin-top:0;
+  }
+  
+  img.unfold {
+    margin: 0;
+  }
 }
+
+
 
 /* ======================================== */
 /* ======================================== */
