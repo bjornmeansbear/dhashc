@@ -26,31 +26,23 @@ $('.linktosi').click(function(event){
 /* END Navigation related stuff */
 /* END Navigation related stuff */
 
-
-
 /************/
 
 var uno  = $('.uno .cycle-slideshow');
 var dos  = $('.dos .cycle-slideshow');
 var tres = $('.tres .cycle-slideshow');
-var fs   = 1000;
 
 uno.on('cycle-finished', function() {
   $('#intro').addClass('one');
-/*   $('.uno .minipostit-pager').fadeOut(fs); */
 });
 
 dos.on('cycle-finished', function() {
   $('#intro').addClass('two');
-/*   $('.dos .minipostit-pager').fadeOut(fs); */
 });
 
 tres.on('cycle-finished', function() {
   $('#intro').addClass('three');
-/*   $('.tres .minipostit-pager').fadeOut(fs); */
 });
-
-/************/
 
 var outer = $('#slideshow .cycle-slideshow');
 var inner = $('#revealingss');
