@@ -19,6 +19,14 @@ header h1 {
 
 .slide h3 { line-height: 30px; }
 
+a.no-style {
+  color: inherit;
+  text-decoration: none;
+}
+a.no-style:hover {
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
 /* end type declarations */
 
 /* ======================================== */
@@ -84,6 +92,8 @@ footer {
   background: #588BA1;
 }
 
+li.disabled {display: none;}
+
 @media (min-width: 980px) {
   header {
     position: fixed;
@@ -116,13 +126,7 @@ footer {
   border: none;
   font-size: 36px;
   padding: 0;
-  text-decoration: none;
   /**/
-  transition: all 200ms;
-  -moz-transition: all 200ms;
-  -webkit-transition: all 200ms;
-  -ms-transition: all 200ms;
-  -o-transition: all 200ms;
   animation: bounce 1s ease;
   animation-delay:2s;
   -webkit-animation: bounce 1s ease;
@@ -160,18 +164,15 @@ footer {
 /* ===================== */
 .columnss { position: relative; cursor: pointer; }
 #slideshow { position: relative; }
-
 .slide {display: none;}
 .slide:first-child {display: block;}
 
-/* slideshow images (for most of the demos, these are the actual "slides") */
-.cycle-slideshow img { 
+.slide img { 
   padding: 0; 
   display: block;
 }
 
-/* in case script does not load */
-.cycle-slideshow img:first-child {
+.cycle-slideshow .slide img:first-child {
   position: static; z-index: 100;
 }
 
@@ -201,9 +202,6 @@ footer {
   background: #444;
 }
 
-/* ======================================== */
-/* ======================================== */
-/* ======================================== */
 /* ======================================== */
 
 .postit {
@@ -242,89 +240,39 @@ img.canvas {
 }
 
 @media (min-width: 1140px) {
-
   .toprow.sizeadjust {
     margin-left: -100px;
     width: 1140px;
   }
-
   img.canvas { 
     height: 300px;
     width: auto;
     margin-top:0;
   }
-  
   img.unfold {
     margin: 0;
   }
 }
 
-/* ======================================== */
-/* ======================================== */
-/* ======================================== */
-/* ======================================== */
 
 
-.bigquote a {
-  color: #588BA1;
-  text-decoration: none;
-  border-bottom: 2px solid #A6DA90;
-  transition: all 500ms;
-  -moz-transition: all 500ms;
-  -webkit-transition: all 500ms;
-  -ms-transition: all 500ms;
-  -o-transition: all 500ms;
-}
-
-.bigquote a:hover {
-  border-color: #588BA1;
-  color: #A6DA90;
-}
-
-.bigquote a.raisedabove {
-  z-index: 999999;
-}
 
 /* ======================================== */
 /* ======================================== */
+/* IN BETWEEN SECTIONS *?
 /* ======================================== */
 /* ======================================== */
 
-/* stacked images fading to text... */
-#revealing .reveal {
-  position: relative;
-  min-height: 300px;
-}
-#revealing .reveal .fadeorder {
-  width: 300px;
-  height:300px;
-  display: none;
-}
 
-#revealing .reveal .one {
-  display: block;
-}
-
-.fadeorder h1 {
-  height: 150px;
-  padding-top: 100px;
-  width: 100%;
-}
-
-.fadeorder .jumbo {
+#inbetween h1 {
   font-size: 100px;
-  margin-left: -140px;
+  padding: 60px 0;
 }
 
-.fadeorder p {
-  text-align: center;
-}
-
-.fadeorder p.lead {
+#inbetween p.lead {
   font-size: 32px;
-  width: 640px;
-  margin-left: -160px;
 }
+
 
 /* ======================================== */
 /* ======================================== */
