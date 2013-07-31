@@ -25,6 +25,9 @@ body {
 
 /* main layout */
 
+#intro .pagedown {display: none; margin-top:40px;}
+#intro.one.two.three .pagedown {display: block;}
+
 .add-top { margin-top: 60px; }
 
 header {
@@ -46,7 +49,7 @@ header h1 span,
 
 article.subsection {
   margin-bottom: 400px;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 #quote, .linktosi {
@@ -82,12 +85,10 @@ footer {
   background: #588BA1;
 }
 
-/*
 .nav-pills > .active {
   display: none;
 }
 
-*/
 @media (min-width: 980px) {
   header {
     position: fixed;
@@ -105,10 +106,14 @@ footer {
     padding: 20px 0;
   }
 
+  article.subsection {
+    margin-bottom: 500px;
+    padding-top: 100px;
+  }
 }
 
 #logic {
-  min-height: 550px;
+  min-height: 774px;
 }
 
 /* end nav styles */

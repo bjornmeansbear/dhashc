@@ -22,8 +22,7 @@ $('.linktosi').click(function(event){
   $('html,body').animate({scrollTop:$('#stayinformed').offset().top}, 800);
 });
 
-$('#menu').hide();
-
+/*
 $(window).scroll(function() {
   var sd = $(window).scrollTop();
   var ld = $('#logic').offset().top;
@@ -31,6 +30,7 @@ $(window).scroll(function() {
     $('#menu').fadeIn('500');
   } else {}
 });
+*/
 /* END Navigation related stuff */
 /* END Navigation related stuff */
 /* END Navigation related stuff */
@@ -41,6 +41,7 @@ $(window).scroll(function() {
 
 /************/
 
+/*
 // layout quote section nicely
 $(window).load(function() {
   var wh    = $(window).height();
@@ -72,6 +73,7 @@ $(window).resize(function() {
   $('#stayinformed').css("padding-top",epad);
 });
 
+*/
 
 
 
