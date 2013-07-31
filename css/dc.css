@@ -93,20 +93,10 @@ footer {
     position: fixed;
     top:0;
     left:0;
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: 80px;
     z-index: 99999;
   }
-
-  header .container {
-    background: white;
-    padding: 20px 0;
-  }
 }
-
-.pagedown {font-size: 36px;}
 
 /*Page Down animation*/
 @keyframes bounce{
@@ -123,10 +113,12 @@ footer {
   75% {bottom: 26px;}
   100% {bottom: 36px;}
 }
+
 /*Page down link*/ 
 .pagedown {
   background: none;
   border: none;
+  font-size: 36px;
   padding: 0;
   text-decoration: none;
   animation: bounce;
