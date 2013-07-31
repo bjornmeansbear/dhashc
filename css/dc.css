@@ -63,7 +63,6 @@ header h1 span,
 article.subsection {
   margin-bottom: 400px;
   padding-top: 100px;
-  cursor: pointer;
 }
 
 footer {
@@ -201,6 +200,28 @@ li.disabled {display: none;}
 .minipostit-pager span.cycle-pager-active {
   background: #444;
 }
+
+.ssbtn {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+.ssbtn a {
+  color: #C8C994;
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.ssbtn a:hover {
+  text-decoration: none;
+  color: #444;
+}
+
+.prev {text-align: right;}
 
 /* ======================================== */
 

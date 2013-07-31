@@ -37,47 +37,6 @@ $(window).scroll(function() {
 
 
 
-
-
-/************/
-
-/*
-// layout quote section nicely
-$(window).load(function() {
-  var wh    = $(window).height();
-  var qh    = $('#quote').height();
-  var qh2   = $('#quote2').height();
-  var eh    = $('#stayinformed').height();
-  var qpad  = ((wh-qh)/2);
-  var q2pad = ((wh-qh2)/2);
-  var epad  = ((wh-eh)/2);
-  $('#quote').height(wh-qpad);
-  $('#quote2').height(wh-q2pad);
-  $('#quote').css("padding-top",qpad);
-  $('#quote2').css("padding-top",q2pad);
-  $('#stayinformed').css("padding-top",epad);
-});
-
-$(window).resize(function() {
-  var wh    = $(window).height();
-  var qh    = $('#quote').height();
-  var qh2   = $('#quote2').height();
-  var eh    = $('#stayinformed').height();
-  var qpad  = ((wh-qh)/2);
-  var q2pad = ((wh-qh2)/2);
-  var epad  = ((wh-eh)/2);
-  $('#quote').height(wh-qpad);
-  $('#quote2').height(wh-q2pad);
-  $('#quote').css("padding-top",qpad);
-  $('#quote2').css("padding-top",q2pad);
-  $('#stayinformed').css("padding-top",epad);
-});
-
-*/
-
-
-
-
 /************/
 
 var uno  = $('.uno .cycle-slideshow');
