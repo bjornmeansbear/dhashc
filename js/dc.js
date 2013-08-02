@@ -51,3 +51,8 @@ outer.on( 'cycle-finished', function() {
   inner.cycle();
   $('.fadeorder').show();
 });
+
+/************/
+
+// making the next/prev links hide when not needed...
+
