@@ -75,6 +75,7 @@ footer {
 /* ======================================== */
 
 /* nav styles */
+#menu h1 a, #menu h1 a:hover {text-decoration: none;}
 
 .nav-pills {
   margin-top: 4px;
@@ -174,6 +175,9 @@ li.disabled {display: none;}
 .cycle-slideshow .slide img:first-child {
   position: static; z-index: 100;
 }
+
+/* hide first and last prev/next buttons... */
+.ssbtn .disabled {visibility: hidden;}
 
 /* pager */
 .minipostit-pager { 
