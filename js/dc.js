@@ -63,5 +63,13 @@ outer.on( 'cycle-finished', function() {
 
 /************/
 
-// making the next/prev links hide when not needed...
+// arrow key function
 
+$(document.documentElement).keyup(function (e) {
+    if (e.keyCode == 39) {        
+       $('#slideshow .cycle-slideshow').cycle('next');
+    }
+    if (e.keyCode == 37) {
+        $('#slideshow .cycle-slideshow').cycle('prev');
+    }
+});
