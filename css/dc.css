@@ -155,6 +155,10 @@ li.disabled {display: none;}
   position: static; z-index: 100;
 }
 
+a.invsbl, a.invsbl:hover {
+  text-decoration: none !important;
+}
+
 /* hide first and last prev/next buttons... */
 .ssbtn .disabled {visibility: hidden;}
 

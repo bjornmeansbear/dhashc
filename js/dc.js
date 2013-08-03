@@ -22,6 +22,15 @@ $('.linktosi').click(function(event){
   $('html,body').animate({scrollTop:$('#stayinformed').offset().top}, 800);
 });
 
+$('a.invsbl').click(function(event){
+  if ($('#intro').hasClass('one') && $('#intro').hasClass('two') && $('#intro').hasClass('three')) {
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+  } else {
+    event.preventDefault();
+  }
+});
+
 /* END Navigation related stuff */
 /* END Navigation related stuff */
 /* END Navigation related stuff */
