@@ -104,33 +104,12 @@ li.disabled {display: none;}
   }
 }
 
-/*Page Down animation*/
-@keyframes bounce{
-  0%   { transform: translateY(0); }
-  25%  { transform: translateY(-15px); }
-  50%  { transform: translateY(-7px); }
-  75%  { transform: translateY(-15px); }
-  100% { transform: translateY(0); }
-}
-@-webkit-keyframes bounce{
-  0%   { transform: translateY(0); }
-  25%  { transform: translateY(-15px); }
-  50%  { transform: translateY(-7px); }
-  75%  { transform: translateY(-15px); }
-  100% { transform: translateY(0); }
-}
-
 /*Page down link*/ 
 .pagedown {
   background: none;
   border: none;
   font-size: 36px;
   padding: 0;
-  /**/
-  animation: bounce 1s ease;
-  animation-delay:2s;
-  -webkit-animation: bounce 1s ease;
-  -webkit-animation-delay:2s;
 }
 
 .pagedown a {
