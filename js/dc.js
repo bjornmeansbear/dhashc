@@ -21,9 +21,6 @@ tres.on('cycle-finished', function() {
 /************/
 
 $(document.documentElement).keyup(function (event) {
-
-  var urlhash = window.location.hash;
-
   // handle cursor keys
   if (event.keyCode == 37) {
     // go up
