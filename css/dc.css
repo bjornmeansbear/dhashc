@@ -55,11 +55,13 @@ header h1 span,
 .jumbo span {
   color: #588BA1;
 }
-article.subsection, article.main section {
+article section {
   margin-bottom: 400px;
   padding-top: 100px;
 }
+
 footer {
+  margin-top: 200px;
   margin-bottom: 40px;
 }
 
@@ -82,7 +84,7 @@ footer {
 .nav-pills > .active > a:focus {
   background: #588BA1;
 }
-li.disabled {display: none;}
+
 @media (min-width: 980px) {
   header {
     position: fixed;
