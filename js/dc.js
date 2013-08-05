@@ -37,11 +37,14 @@ tres.on('cycle-finished', function() {
 
 // arrow key functions
 $(document.documentElement).keyup(function (e) {
-    if (e.keyCode == 39) {
-      NEXT
-    }
-    if (e.keyCode == 37) {
-      PREV
-    }
+  if (e.keyCode == 39) {
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$('#dhashc').offset().top}, 800, function(){ window.location.hash = $(this.hash); });
+  }
+  if (e.keyCode == 37) {
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$('#open').offset().top}, 800, function(){ window.location.hash = $(this.hash); });
+  }
 });
+
 
