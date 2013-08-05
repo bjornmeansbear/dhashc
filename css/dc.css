@@ -38,6 +38,7 @@ span.light, h3 span.light {font-weight: 400 !important;}
 .add-bottom { margin-bottom: 40px; }
 .no-top     { margin-top:    0 !important;}
 .no-bottom  { margin-bottom: 0 !important;}
+
 html, body {
   margin: 0; 
   padding: 0;
@@ -58,6 +59,7 @@ article.subsection, article.main section {
   margin-bottom: 400px;
   padding-top: 100px;
 }
+
 footer {
   margin-bottom: 40px;
 }
@@ -195,8 +197,7 @@ p.intro  { padding: 10px 19px; font-size: 18px; margin-top: 20px;}
 .columnss .lead {
   height: 260px;
 }
-.toprow    { min-height: 30px; margin-bottom: 20px;}
-/* .bottomrow { min-height: 120px; } */
+.toprow    { margin-bottom: 20px;}
 
 .outdent {
   margin-left: 0;

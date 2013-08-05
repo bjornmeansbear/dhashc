@@ -4,26 +4,14 @@
 /************/
 
 /* Navigation related stuff */
-/* Navigation related stuff */
-/* Navigation related stuff */
 
 $('.scroll').click(function(event){    
   event.preventDefault();
   $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
 });
 
-$('#quote').click(function(event){    
-  event.preventDefault();
-  $('html,body').animate({scrollTop:$('#quote2').offset().top}, 800);
-});
-
-$('.linktosi').click(function(event){    
-  event.preventDefault();
-  $('html,body').animate({scrollTop:$('#stayinformed').offset().top}, 800);
-});
-
 $('a.invsbl').click(function(event){
-  if ($('#intro').hasClass('one') && $('#intro').hasClass('two') && $('#intro').hasClass('three')) {
+  if ($('#open').hasClass('one') && $('#open').hasClass('two') && $('#open').hasClass('three')) {
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
   } else {
@@ -31,8 +19,6 @@ $('a.invsbl').click(function(event){
   }
 });
 
-/* END Navigation related stuff */
-/* END Navigation related stuff */
 /* END Navigation related stuff */
 
 /************/
@@ -42,23 +28,15 @@ var dos  = $('.dos .cycle-slideshow');
 var tres = $('.tres .cycle-slideshow');
 
 uno.on('cycle-finished', function() {
-  $('#intro').addClass('one');
+  $('#open').addClass('one');
 });
 
 dos.on('cycle-finished', function() {
-  $('#intro').addClass('two');
+  $('#open').addClass('two');
 });
 
 tres.on('cycle-finished', function() {
-  $('#intro').addClass('three');
-});
-
-var outer = $('#slideshow .cycle-slideshow');
-var inner = $('#revealingss');
-
-outer.on( 'cycle-finished', function() {
-  inner.cycle();
-  $('.fadeorder').show();
+  $('#open').addClass('three');
 });
 
 /************/
