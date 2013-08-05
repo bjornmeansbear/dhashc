@@ -67,10 +67,5 @@ $(document.documentElement).keyup(function (event) {
 });
 
 /************/
-
-window.history.back();
-
-window.history.forward();
-
 /************/
 
