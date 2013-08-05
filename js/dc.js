@@ -1,18 +1,13 @@
 // Custom JS for dhashc.com
 // extend and customize bootstrap as well as add unique, custom functions
 
-/************/
-
 /* Navigation related stuff */
-/*
 $('.scroll').click(function(event){    
   event.preventDefault();
   var selector = $(this.hash).selector;
   $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800, function(){ window.location.hash = selector; });
 });
-*/
 
-/*
 $('a.invsbl').click(function(event){
   if ($('#open').hasClass('one') && $('#open').hasClass('two') && $('#open').hasClass('three')) {
     event.preventDefault();
@@ -22,10 +17,11 @@ $('a.invsbl').click(function(event){
     event.preventDefault();
   }
 });
-*/
 /* END Navigation related stuff */
 
 /************/
+/************/
+
 var uno  = $('.uno .cycle-slideshow');
 var dos  = $('.dos .cycle-slideshow');
 var tres = $('.tres .cycle-slideshow');
@@ -38,6 +34,8 @@ dos.on('cycle-finished', function() {
 tres.on('cycle-finished', function() {
   $('#open').addClass('three');
 });
+
+/************/
 /************/
 
 $(document.documentElement).keyup(function (event) {
@@ -61,11 +59,5 @@ $(document.documentElement).keyup(function (event) {
 });
 
 /************/
-
-$(window).load(function() {
-  var urlhash = window.location.hash;
-  $('html,body').animate({scrollTop: urlhash.offset().top}, 800);  
-});
-
 /************/
 
