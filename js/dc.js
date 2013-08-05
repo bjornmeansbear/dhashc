@@ -12,6 +12,7 @@ $('.scroll').click(function(event){
 });
 */
 
+/*
 $('a.invsbl').click(function(event){
   if ($('#open').hasClass('one') && $('#open').hasClass('two') && $('#open').hasClass('three')) {
     event.preventDefault();
@@ -21,6 +22,7 @@ $('a.invsbl').click(function(event){
     event.preventDefault();
   }
 });
+*/
 /* END Navigation related stuff */
 
 /************/
