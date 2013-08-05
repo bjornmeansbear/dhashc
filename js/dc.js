@@ -36,17 +36,18 @@ tres.on('cycle-finished', function() {
 /************/
 
 $(document.documentElement).keyup(function (event) {
+
   // handle cursor keys
   if (event.keyCode == 37) {
     // go up
-    $('article > section').each(function() {
-      $(this).parent().find('a.prev').click(); 
-    });
-  } else if (event.keyCode == 39) {
-    // go down
-    $('article > section').each(function() {
-      $(this).parent().find('a.next').click(); 
-    });
+    var urlhash = window.location.hash;
+    $(urlhash).find('a.prev').click(); 
   }
+  if (event.keyCode == 39) {
+    // go down
+    var urlhash = window.location.hash;
+    $(urlhash).find('a.next').click(); 
+  } 
+  else {}
 });
 
