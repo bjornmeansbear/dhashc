@@ -6,7 +6,8 @@
 /* Navigation related stuff */
 $('.scroll').click(function(event){    
   event.preventDefault();
-  $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800, function(){ window.location.hash = $(this.hash); });
+  var selector = $(this.hash).selector;
+  $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800, function(){ window.location.hash = selector; });
 });
 
 $('a.invsbl').click(function(event){
