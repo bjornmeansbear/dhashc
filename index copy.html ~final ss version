@@ -247,105 +247,138 @@
     <article id="logic" class="subsection">
       <section class="container main">
         <div class="row">
+  
+          <div id="slideshow">
+            <!-- main slideshow -->
+            <div class="cycle-slideshow ss"
+              data-cycle-fx="fadeOut"
+              data-cycle-timeout="0"
+              data-cycle-swipe="true"
+              data-cycle-slides="> div.slide"
+              data-cycle-auto-height="3"
+              data-cycle-pager="> .minipostit-pager"
+              data-cycle-pager-template='<span class="minipostit"><a href=#> {{slideNum}} </a></span>'
+              data-cycle-loop="1"
+              data-cycle-allow-wrap="false"
+              data-cycle-prev=".prev"
+              data-cycle-next=".next"
+              >
+              
+              <!-- SECTION 3 -->
+              <!-- Logic basics! -->
+              <div class="slide span12">
+                <div class="row toprow">
+                  <img class="span4" src="img/1postits-yellow.png"/>
+                  <img class="span4" src="img/2justicons.png"/>
+                  <img class="span4" src="img/3postits-colored.png"/>
+                </div>
+                <div class="row bottomrow">
+                  
+                  <p class="span4"><strong>Design is code</strong> <br/>Punched cards and paper tape were once used to write computer code. Imagine writing code with the proverbial Post-It Notes&reg;. Everybody can code.</p>
+                  
+                  <p class="span4"><strong>Ideas are statements</strong> <br/>Not everybody is a designer but they have ideas, observations and insight; in their heads and in various files and formats. All the time and everywhere.</p>
+                  
+                  <p class="span4"><strong>Active minds; passive design</strong> <br/>Imagine a way to process these statements and passively convert them to code. Design code. From the noisy but decompressed white space.</p>
+                  
+                  <h3 class="span12 text-center">Everybody can code.</h3>
+                  
+                </div>
+              </div>
+              <!-- END logic basics -->
+              <!-- END SECTION 3 -->
+  
+              <!-- SECTION 4 -->
+              <!-- ARguments and perspectives -->
+              <div class="slide span12">
+                <div class="row toprow">
+                  <img class="span4" src="img/4designperspectives.jpg"/>
+                  <img class="span4" src="img/5designarguments.jpg"/>
+                  <img class="span4" src="img/6designfunctions.jpg"/>
+                </div>
+                <div class="row bottomrow">
+                  
+                  <p class="span4"><strong>8 Design Perspectives</strong> <br/>Anchor the value proposition of every service; the building blocks for the entire design language.</p>
+                  
+                  <p class="span4"><strong>24 Design Arguments</strong> <br/>For tagging, framing and expressing ideas, observations and insight as design statements.</p>
+                  
+                  <p class="span4"><strong>32 Design Functions</strong> <br/>Describe every aspect of a service in terms of structure and behavior; they together define the genetic code.</p>
 
-          <!-- Logic basics! -->
-          <div class="slide span12" id="everybodycancode">
-            <div class="row toprow">
-              <img class="span4" src="img/1postits-yellow.png"/>
-              <img class="span4" src="img/2justicons.png"/>
-              <img class="span4" src="img/3postits-colored.png"/>
-            </div>
-            <div class="row bottomrow">
-              
-              <p class="span4"><strong>Design is code</strong> <br/>Punched cards and paper tape were once used to write computer code. Imagine writing code with the proverbial Post-It Notes&reg;. Everybody can code.</p>
-              
-              <p class="span4"><strong>Ideas are statements</strong> <br/>Not everybody is a designer but they have ideas, observations and insight; in their heads and in various files and formats. All the time and everywhere.</p>
-              
-              <p class="span4"><strong>Active minds; passive design</strong> <br/>Imagine a way to process these statements and passively convert them to code. Design code. From the noisy but decompressed white space.</p>
-              
-              <h3 class="span12 text-center">Everybody can code.</h3>
-              
-            </div>
-          </div>
-          <!-- END logic basics -->
+                  <h3 class="span12 text-center no-bottom">With simplicity and sophistication.</h3>
+                  <h3 class="span12 text-center not-bold no-top">(One without the other is disappointing)</h3>
 
-          <!-- ARguments and perspectives -->
-          <div class="slide span12" id="simplicitysophistication">
-            <div class="row toprow">
-              <img class="span4" src="img/4designperspectives.jpg"/>
-              <img class="span4" src="img/5designarguments.jpg"/>
-              <img class="span4" src="img/6designfunctions.jpg"/>
-            </div>
-            <div class="row bottomrow">
-              
-              <p class="span4"><strong>8 Design Perspectives</strong> <br/>Anchor the value proposition of every service; the building blocks for the entire design language.</p>
-              
-              <p class="span4"><strong>24 Design Arguments</strong> <br/>For tagging, framing and expressing ideas, observations and insight as design statements.</p>
-              
-              <p class="span4"><strong>32 Design Functions</strong> <br/>Describe every aspect of a service in terms of structure and behavior; they together define the genetic code.</p>
-
-              <h3 class="span12 text-center no-bottom">With simplicity and sophistication.</h3>
-              <h3 class="span12 text-center not-bold no-top">(One without the other is disappointing)</h3>
-
-            </div>
-          </div>
-          <!-- END Arguments and perspectives -->
-
-          <!-- Canvases / Good Design Fast -->
-          <div class="slide span12" id="gooddesignfast">
-            <div class="row toprow sizeadjust">
-              <img class="span4 canvas unfold" src="img/unfoldicon.png"/>
-              <img class="span4" src="img/6codeandicons.png"/>
-              <img class="span4 canvas fold" src="img/foldicon.png"/>
-            </div>
-            <div class="row bottomrow">
-              
-              <p class="span12 no-bottom"><strong>Good design, fast&trade;</strong></p>
-              
-              <p class="span4">Combining the tradition of industrial design with the tradecraft of strategy, for a powerful design logic based on proven science of economics, engineering and operations.</p>
-              
-              <p class="span4">Placing ideas, observations and insight on canvases embedded with the design logic, passively generates the design of a service product.</p>
-              
-              <p class="span4">Each canvas has 16 Design Functions in a 4x4 array, interlocked by the design logic, with charts in the margin for analysis and
+                </div>
+              </div>
+              <!-- END Arguments and perspectives -->
+              <!-- END SECTION 4 -->
+  
+              <!-- SECTION 5 -->
+              <!-- Canvases / Good Design Fast -->
+              <div class="slide span12">
+                <div class="row toprow sizeadjust">
+                  <img class="span4 canvas unfold" src="img/unfoldicon.png"/>
+                  <img class="span4" src="img/6codeandicons.png"/>
+                  <img class="span4 canvas fold" src="img/foldicon.png"/>
+                </div>
+                <div class="row bottomrow">
+                  
+                  <p class="span12 no-bottom"><strong>Good design, fast&trade;</strong></p>
+                  
+                  <p class="span4">Combining the tradition of industrial design with the tradecraft of strategy, for a powerful design logic based on proven science of economics, engineering and operations.</p>
+                  
+                  <p class="span4">Placing ideas, observations and insight on canvases embedded with the design logic, passively generates the design of a service product.</p>
+                  
+                  <p class="span4">Each canvas has 16 Design Functions in a 4x4 array, interlocked by the design logic, with charts in the margin for analysis and
 encoding of business model and strategy.</p>
 
-              <h3 class="span12 text-center">The simple surfaces of the canvases are <br/>embedded with sophisticated code</h3>
+                  <h3 class="span12 text-center">The simple surfaces of the canvases are <br/>embedded with sophisticated code</h3>
 
-            </div>
-          </div>
-          <!-- END Canvases / Good Design Fast -->
+                </div>
+              </div>
+              <!-- END Canvases / Good Design Fast -->
+              <!-- END SECTION 5 -->
 
-          <!-- Canvases / Closeup / Examine the logic threads -->
-          <div class="slide span12" id="raisingthebar">
-            <div class="row toprow">
-              <img class="span12" src="img/raisingthebar.jpg" />
-            </div>
-            <div class="row bottomrow">
+              <!-- SECTION 6 -->
+              <!-- Canvases / Closeup / Examine the logic threads -->
+              <div class="slide span12">
+                <div class="row toprow">
+                  <img class="span12" src="img/raisingthebar.jpg" />
+                </div>
+                <div class="row bottomrow">
 
-              <p class="span12 no-bottom"><strong>Raising the bar by lowering the barrier&trade;</strong></p>
+                  <p class="span12 no-bottom"><strong>Raising the bar by lowering the barrier&trade;</strong></p>
 
-              <p class="span4">By engaging in the design effort those who are otherwise not; either because they&rsquo;re too busy, or not trained in the &ldquo;black art&rdquo; i.e. formal methods in design and architecture.</p>
+                  <p class="span4">By engaging in the design effort those who are otherwise not; either because they&rsquo;re too busy, or not trained in the &ldquo;black art&rdquo; i.e. formal methods in design and architecture.</p>
 
-              <p class="span4">The single thread of logic through the 32 Design Functions readily integrates input from multiple perspectives, work sessions and work streams, so teams can </p>
+                  <p class="span4">The single thread of logic through the 32 Design Functions readily integrates input from multiple perspectives, work sessions and work streams, so teams can </p>
+                  
+                  <p class="span4">collaborate in an asynchronous and parallel manner. This accelerates efforts and reduces pressure so there is enough time for discussion and creative conflict.</p>
+
+                  <h3 class="span12 text-center">So design is neither simplistic nor <br/>superficial; collaboration hazards</h3>
+
+                </div>
+              </div>
+              <!-- END Canvases / Closeup / Examine the logic threads -->
+              <!-- END SECTION 6 -->
+
               
-              <p class="span4">collaborate in an asynchronous and parallel manner. This accelerates efforts and reduces pressure so there is enough time for discussion and creative conflict.</p>
-
-              <h3 class="span12 text-center">So design is neither simplistic nor <br/>superficial; collaboration hazards</h3>
-
-            </div>
-          </div>
-          <!-- END Canvases / Closeup / Examine the logic threads -->
-          
-          <!-- Giant Explanation image -->
-          <div class="slide span12 measure" id="tk-bigdiagram">
-            <div class="row toprow">
-              <img class="span12" src="img/dsp-d.png" alt="Explanatory image of D#C signal processing"/>
-              <h3 class="span12 text-center">Design Signal Processing&trade;</h3>
-              <p class="span12 text-center small">(patent-pending)</p>
-            </div>
-          </div>
-          <!-- END Giant Explanation image -->
+              <!-- SECTION 7 -->
+              <!-- Giant Explanation image -->
+              <div class="slide span12 measure">
+                <div class="row toprow">
+                  <img class="span12" src="img/dsp-d.png" alt="Explanatory image of D#C signal processing"/>
+                  <h3 class="span12 text-center">Design Signal Processing&trade;</h3>
+                  <p class="span12 text-center small">(patent-pending)</p>
+                </div>
+              </div>
+              <!-- END Giant Explanation image -->
+              <!-- END SECTION 7 -->
     
+              <!-- PAGER @ THE BOTTOM -->
+              <div class="span1 offset3 ssbtn"><a href="#" class="prev">&laquo;</a></div>
+              <div class="minipostit-pager span4" title="Click to Advance"></div>
+              <div class="span1 ssbtn"><a href="#" class="next">&raquo;</a></div>
+            </div>
+          </div>
         </div>
         <div class="row pagedown add-top text-center">
           <a class="scroll span12" href="#stayinformed">&#x25BC;</a>
