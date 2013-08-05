@@ -3,20 +3,6 @@
 
 /************/
 
-$(window).scroll(function(){
-  $('section').each(function(){
-    if (
-      $(this).offset().top < window.pageYOffset
-      //begins before top
-      && $(this).offset().top + $(this).height() > window.pageYOffset
-      //but ends in visible area
-      //+ 10 allows you to change hash before it hits the top border
-      ) {
-      window.location.hash = $(this).attr('id');
-    }
-  });
-});
-
 /* Navigation related stuff */
 $('.scroll').click(function(event){    
   event.preventDefault();
@@ -61,7 +47,11 @@ $(document.documentElement).keyup(function (event) {
   if (event.keyCode == 39) {
     // go down
     var urlhash = window.location.hash;
-    $(urlhash).find('a.next').click(); 
+    $(urlhash).find('a.next').click();
+    
+    if(urlhash === ''){
+      $('#open').find('a.next').click();
+    }
   } 
   else {}
 });
