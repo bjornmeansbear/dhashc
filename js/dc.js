@@ -1,13 +1,12 @@
 // Custom JS for dhashc.com
-// extend and customize bootstrap & cycle2, as well as add unique, custom functions
+// extend and customize bootstrap as well as add unique, custom functions
 
 /************/
 
 /* Navigation related stuff */
-
 $('.scroll').click(function(event){    
   event.preventDefault();
-  $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+  $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800, function(){ window.location.hash = $(this.hash); });
 });
 
 $('a.invsbl').click(function(event){
@@ -18,36 +17,30 @@ $('a.invsbl').click(function(event){
     event.preventDefault();
   }
 });
-
 /* END Navigation related stuff */
 
 /************/
-
 var uno  = $('.uno .cycle-slideshow');
 var dos  = $('.dos .cycle-slideshow');
 var tres = $('.tres .cycle-slideshow');
-
 uno.on('cycle-finished', function() {
   $('#open').addClass('one');
 });
-
 dos.on('cycle-finished', function() {
   $('#open').addClass('two');
 });
-
 tres.on('cycle-finished', function() {
   $('#open').addClass('three');
 });
-
 /************/
 
-// arrow key function
-
+// arrow key functions
 $(document.documentElement).keyup(function (e) {
-    if (e.keyCode == 39) {        
-       $('#slideshow .cycle-slideshow').cycle('next');
+    if (e.keyCode == 39) {
+      NEXT
     }
     if (e.keyCode == 37) {
-        $('#slideshow .cycle-slideshow').cycle('prev');
+      PREV
     }
 });
+
