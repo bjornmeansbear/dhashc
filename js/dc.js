@@ -37,17 +37,17 @@ tres.on('cycle-finished', function() {
 /************/
 
 $(window).scroll(function(){
-    $('section').each(function(){
-        if (
-           $(this).offset().top < window.pageYOffset + 10
-//begins before top
-        && $(this).offset().top + $(this).height() > window.pageYOffset + 10
-//but ends in visible area
-//+ 10 allows you to change hash before it hits the top border
-        ) {
-            window.location.hash = $(this).attr('id');
-        }
-    });
+  $('section').each(function(){
+    if (
+      $(this).offset().top < window.pageYOffset
+      //begins before top
+      && $(this).offset().top + $(this).height() > window.pageYOffset
+      //but ends in visible area
+      //+ 10 allows you to change hash before it hits the top border
+      ) {
+      window.location.hash = $(this).attr('id');
+    }
+  });
 });
 
 $(document.documentElement).keyup(function (event) {
