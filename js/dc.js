@@ -39,9 +39,9 @@ tres.on('cycle-finished', function() {
 $(window).scroll(function(){
   $('section').each(function(){
     if (
-      $(this).offset().top < window.pageYOffset
+      $(this).offset().top < window.pageYOffset +1
       //begins before top
-      && $(this).offset().top + $(this).height() > window.pageYOffset
+      && $(this).offset().top + $(this).height() > window.pageYOffset +1
       //but ends in visible area
       //+ 10 allows you to change hash before it hits the top border
       ) {
