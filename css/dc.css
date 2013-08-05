@@ -57,7 +57,7 @@ header h1 span,
 }
 article section {
   margin-bottom: 400px;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 footer {
@@ -93,6 +93,11 @@ footer {
     width: 100%;
     z-index: 99999;
   }
+  article section {
+    margin-bottom: 400px;
+    padding-top: 100px;
+  }
+
 }
 
 /*Page down link*/ 
