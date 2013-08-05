@@ -35,16 +35,18 @@ tres.on('cycle-finished', function() {
 });
 /************/
 
-// arrow key functions
-$(document.documentElement).keyup(function (e) {
-  if (e.keyCode == 39) {
-    event.preventDefault();
-    $('html,body').animate({scrollTop:$('#dhashc').offset().top}, 800, function(){ window.location.hash = $(this.hash); });
-  }
-  if (e.keyCode == 37) {
-    event.preventDefault();
-    $('html,body').animate({scrollTop:$('#open').offset().top}, 800, function(){ window.location.hash = $(this.hash); });
+$(document.documentElement).keyup(function (event) {
+  // handle cursor keys
+  if (event.keyCode == 37) {
+    // go up
+    $('article > section').each(function() {
+      $(this).parent().find('a.prev').click(); 
+    });
+  } else if (event.keyCode == 39) {
+    // go down
+    $('article > section').each(function() {
+      $(this).parent().find('a.next').click(); 
+    });
   }
 });
-
 
