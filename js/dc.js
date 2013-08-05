@@ -4,11 +4,13 @@
 /************/
 
 /* Navigation related stuff */
+/*
 $('.scroll').click(function(event){    
   event.preventDefault();
   var selector = $(this.hash).selector;
   $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800, function(){ window.location.hash = selector; });
 });
+*/
 
 $('a.invsbl').click(function(event){
   if ($('#open').hasClass('one') && $('#open').hasClass('two') && $('#open').hasClass('three')) {
@@ -57,5 +59,11 @@ $(document.documentElement).keyup(function (event) {
 });
 
 /************/
+
+$(window).load(function() {
+  var urlhash = window.location.hash;
+  $('html,body').animate({scrollTop: urlhash.offset().top}, 800);  
+});
+
 /************/
 
