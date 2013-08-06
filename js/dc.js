@@ -29,7 +29,7 @@ $(document.documentElement).keyup(function (event) {
       window.location.hash = 'dhashc';
     }
     
-    if(location.hash === '#feedback'){
+    else if(location.hash === '#feedback'){
       window.location.hash = 'feedback';
     }
     
