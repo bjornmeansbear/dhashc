@@ -1,40 +1,43 @@
 // Custom JS for dhashc.com
-// extend and customize bootstrap as well as add unique, custom functions
-
-/************/
-/************/
-
-var uno  = $('.uno .cycle-slideshow');
-var dos  = $('.dos .cycle-slideshow');
-var tres = $('.tres .cycle-slideshow');
-uno.on('cycle-finished', function() {
-  $('#open').addClass('one');
-});
-dos.on('cycle-finished', function() {
-  $('#open').addClass('two');
-});
-tres.on('cycle-finished', function() {
-  $('#open').addClass('three');
-});
+// basically just gets the arrow keys working... everything else got scrapped.
 
 /************/
 /************/
 
 $(document.documentElement).keyup(function (event) {
+  
   // handle cursor keys
   if (event.keyCode == 37) {
     // go up
     var urlhash = window.location.hash;
-    $(urlhash).find('a.prev').click(); 
+
+    if(location.hash === '#open'){
+      window.location.hash = 'open';
+    }
+
+    else {
+      var linkhash = $(urlhash).find('a.prev').attr('href');
+      window.location.hash = linkhash;
+    }
   }
+  
   if (event.keyCode == 39) {
     // go down
     var urlhash = window.location.hash;
-    $(urlhash).find('a.next').click();
-    
+      
     if(urlhash === ''){
-      $('#open').find('a.next').click();
+      window.location.hash = 'dhashc';
     }
+    
+    if(location.hash === '#feedback'){
+      window.location.hash = 'feedback';
+    }
+    
+    else {
+      var linkhash = $(urlhash).find('a.next').attr('href');
+      window.location.hash = linkhash;
+    }
+
   } 
   else {}
 });
