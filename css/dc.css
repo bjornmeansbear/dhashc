@@ -3,6 +3,15 @@
 /* type declarations */
 /* ======================================== */
 /* ======================================== */
+@font-face {
+  font-family: 'Orator';
+  src: url('ff/oratorstd.eot');
+  src: url('ff/oratorstd.eot') format('embedded-opentype'),
+       url('ff/oratorstd.woff') format('woff'),
+       url('ff/oratorstd.ttf') format('truetype'),
+       url('ff/oratorstd.svg#OratorStdMedium') format('svg');
+}
+
 html {
   color: #444;
   min-height: 101%;
@@ -27,6 +36,14 @@ a.no-style:hover {
   border-bottom: 2px solid;
 }
 span.light, h3 span.light {font-weight: 400 !important;}
+
+html body .orator,
+html body span.orator {
+  font-family: 'Orator', Consolas, 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
 /* end type declarations */
 
 /* ======================================== */
