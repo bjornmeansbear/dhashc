@@ -1,6 +1,28 @@
 // Custom JS for dhashc.com
 // basically just gets the arrow keys working... everything else got scrapped.
 
+var uno  = $('.uno .cycle-slideshow');
+var dos  = $('.dos .cycle-slideshow');
+var tres = $('.tres .cycle-slideshow');
+uno.on('cycle-finished', function() {
+  $('#open').addClass('one');
+});
+dos.on('cycle-finished', function() {
+  $('#open').addClass('two');
+});
+tres.on('cycle-finished', function() {
+  $('#open').addClass('three');
+});
+
+$('a.invsbl').click(function(event){
+  if ($('#open').hasClass('one') && $('#open').hasClass('two') && $('#open').hasClass('three')) {
+    var selector = $(this.hash).selector;
+    window.location.hash = selector;
+  } else {
+    event.preventDefault();
+  }
+});
+
 /************/
 /************/
 
